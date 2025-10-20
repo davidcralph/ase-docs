@@ -1,0 +1,200 @@
+{
+  "source_base_path": "F:/Code/Uni/ase-assignment-davidcralph/BOOSE.Interpreter",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.AboutCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.AboutCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.AboutCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.AboutCommand.yml\" sourcestartlinenumber=\"1\">Command implementation that displays information about the BOOSE application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.BOOSECanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.BOOSECanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.BOOSECanvas",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.BOOSECanvas.yml\" sourcestartlinenumber=\"1\">Provides a Windows Forms-based implementation of the BOOSE Canvas for graphical drawing operations.\nImplements the abstract Canvas class with GDI+ rendering capabilities.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.BOOSECommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.BOOSECommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.BOOSECommandFactory",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.BOOSECommandFactory.yml\" sourcestartlinenumber=\"1\">Factory class for creating BOOSE command objects from command strings.\nExtends the base <xref href=\"BOOSE.CommandFactory\" data-throw-if-not-resolved=\"false\"></xref> to provide custom command implementations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.BOOSEProgramRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.BOOSEProgramRunner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.BOOSEProgramRunner",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.BOOSEProgramRunner.yml\" sourcestartlinenumber=\"1\">Executes BOOSE programs on a specified canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.DebugWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.DebugWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.DebugWindow",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.DebugWindow.yml\" sourcestartlinenumber=\"1\">A debug output window that displays trace messages from the BOOSE interpreter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.MainWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.MainWindow",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.MainWindow.yml\" sourcestartlinenumber=\"1\">The main application window for the BOOSE Interpreter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.TextBoxTraceListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.TextBoxTraceListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.TextBoxTraceListener",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.TextBoxTraceListener.yml\" sourcestartlinenumber=\"1\">A custom trace listener that redirects trace output to a TextBox control.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

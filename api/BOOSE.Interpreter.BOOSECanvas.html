@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BOOSECanvas | BOOSE Interpreter Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BOOSECanvas | BOOSE Interpreter Documentation ">
+      
+      <meta name="description" content="Provides a Windows Forms-based implementation of the BOOSE Canvas for graphical drawing operations. Implements the abstract Canvas class with GDI+ rendering capabilities.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/new/main/apiSpec/new?filename=BOOSE_Interpreter_BOOSECanvas.md&amp;value=---%0Auid%3A%20BOOSE.Interpreter.BOOSECanvas%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="BOOSE Interpreter">
+            BOOSE Interpreter
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="BOOSE.Interpreter.BOOSECanvas">
+
+
+
+  <h1 id="BOOSE_Interpreter_BOOSECanvas" data-uid="BOOSE.Interpreter.BOOSECanvas" class="text-break">
+Class BOOSECanvas  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="BOOSE.html">BOOSE</a>.<a class="xref" href="BOOSE.Interpreter.html">Interpreter</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>BOOSE.Interpreter.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides a Windows Forms-based implementation of the BOOSE Canvas for graphical drawing operations.
+Implements the abstract Canvas class with GDI+ rendering capabilities.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BOOSECanvas : Canvas, ICanvas</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Canvas</span></div>
+      <div><span class="xref">BOOSECanvas</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">ICanvas</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <span class="xref">Canvas.background_colour</span>
+    </div>
+    <div>
+      <span class="xref">Canvas.Xpos</span>
+    </div>
+    <div>
+      <span class="xref">Canvas.Ypos</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas__ctor_" data-uid="BOOSE.Interpreter.BOOSECanvas.#ctor*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas__ctor" data-uid="BOOSE.Interpreter.BOOSECanvas.#ctor">
+  BOOSECanvas()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="BOOSE.Interpreter.BOOSECanvas.html">BOOSECanvas</a> class with a white background.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BOOSECanvas()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_PenColour_" data-uid="BOOSE.Interpreter.BOOSECanvas.PenColour*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_PenColour" data-uid="BOOSE.Interpreter.BOOSECanvas.PenColour">
+  PenColour
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the current pen color used for drawing operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override object PenColour { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.color">Color</a> object representing the current drawing color.
+Setting this property updates both the pen and brush colors.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_Circle_" data-uid="BOOSE.Interpreter.BOOSECanvas.Circle*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_Circle_System_Int32_System_Boolean_" data-uid="BOOSE.Interpreter.BOOSECanvas.Circle(System.Int32,System.Boolean)">
+  Circle(int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a circle centered at the current cursor position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Circle(int radius, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The radius of the circle in pixels.</p>
+</dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, draws a filled circle; otherwise draws only the outline.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_Clear_" data-uid="BOOSE.Interpreter.BOOSECanvas.Clear*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_Clear" data-uid="BOOSE.Interpreter.BOOSECanvas.Clear">
+  Clear()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clears the entire canvas by filling it with the background color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Clear()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="BOOSE_Interpreter_BOOSECanvas_Clear_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method does not reset the cursor position or drawing color.</p>
+</div>
+
+
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_DrawTo_" data-uid="BOOSE.Interpreter.BOOSECanvas.DrawTo*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_DrawTo_System_Int32_System_Int32_" data-uid="BOOSE.Interpreter.BOOSECanvas.DrawTo(System.Int32,System.Int32)">
+  DrawTo(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a line from the current cursor position to the specified coordinates,
+then moves the cursor to the end point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void DrawTo(int x, int y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The x-coordinate of the line's end point.</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The y-coordinate of the line's end point.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_MoveTo_" data-uid="BOOSE.Interpreter.BOOSECanvas.MoveTo*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_MoveTo_System_Int32_System_Int32_" data-uid="BOOSE.Interpreter.BOOSECanvas.MoveTo(System.Int32,System.Int32)">
+  MoveTo(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Moves the drawing cursor to the specified coordinates without drawing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void MoveTo(int x, int y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The x-coordinate to move to.</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The y-coordinate to move to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_Rect_" data-uid="BOOSE.Interpreter.BOOSECanvas.Rect*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_Rect_System_Int32_System_Int32_System_Boolean_" data-uid="BOOSE.Interpreter.BOOSECanvas.Rect(System.Int32,System.Int32,System.Boolean)">
+  Rect(int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a rectangle with the current cursor position as the top-left corner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Rect(int width, int height, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The width of the rectangle in pixels.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The height of the rectangle in pixels.</p>
+</dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, draws a filled rectangle; otherwise draws only the outline.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_Rectangle_" data-uid="BOOSE.Interpreter.BOOSECanvas.Rectangle*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_Rectangle_System_Int32_System_Int32_System_Boolean_" data-uid="BOOSE.Interpreter.BOOSECanvas.Rectangle(System.Int32,System.Int32,System.Boolean)">
+  Rectangle(int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a rectangle with the current cursor position as the top-left corner.
+This is an alias for the <a class="xref" href="BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Rect_System_Int32_System_Int32_System_Boolean_">Rect(int, int, bool)</a> method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Rectangle(int width, int height, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The width of the rectangle in pixels.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The height of the rectangle in pixels.</p>
+</dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, draws a filled rectangle; otherwise draws only the outline.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_Reset_" data-uid="BOOSE.Interpreter.BOOSECanvas.Reset*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_Reset" data-uid="BOOSE.Interpreter.BOOSECanvas.Reset">
+  Reset()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resets the canvas state to its initial configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Reset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="BOOSE_Interpreter_BOOSECanvas_Reset_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method resets the cursor position to (0, 0) and sets the drawing color to black (0, 0, 0).
+It does not clear the canvas content.</p>
+</div>
+
+
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_Set_" data-uid="BOOSE.Interpreter.BOOSECanvas.Set*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_Set_System_Int32_System_Int32_" data-uid="BOOSE.Interpreter.BOOSECanvas.Set(System.Int32,System.Int32)">
+  Set(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes or reinitializes the canvas with the specified dimensions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Set(int width, int height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The width of the canvas in pixels.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The height of the canvas in pixels.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="BOOSE_Interpreter_BOOSECanvas_Set_System_Int32_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method disposes of any existing graphics resources and creates a new bitmap
+with anti-aliased rendering. The canvas is cleared to the background color and
+the cursor position is reset to the origin (0, 0).</p>
+</div>
+
+
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_SetColour_" data-uid="BOOSE.Interpreter.BOOSECanvas.SetColour*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_SetColour_System_Int32_System_Int32_System_Int32_" data-uid="BOOSE.Interpreter.BOOSECanvas.SetColour(System.Int32,System.Int32,System.Int32)">
+  SetColour(int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the drawing color using RGB values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetColour(int red, int green, int blue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>red</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The red component (0-255).</p>
+</dd>
+    <dt><code>green</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The green component (0-255).</p>
+</dd>
+    <dt><code>blue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The blue component (0-255).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="BOOSE_Interpreter_BOOSECanvas_SetColour_System_Int32_System_Int32_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method updates both the pen color (for lines and outlines) and
+the brush color (for filled shapes and text).</p>
+</div>
+
+
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_Tri_" data-uid="BOOSE.Interpreter.BOOSECanvas.Tri*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_Tri_System_Int32_System_Int32_" data-uid="BOOSE.Interpreter.BOOSECanvas.Tri(System.Int32,System.Int32)">
+  Tri(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a triangle with the current cursor position as the top-left corner of its bounding box.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Tri(int width, int height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The width of the triangle's bounding box in pixels.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The height of the triangle's bounding box in pixels.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="BOOSE_Interpreter_BOOSECanvas_Tri_System_Int32_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The triangle is drawn with its apex at the top center and base at the bottom,
+forming an isosceles triangle.</p>
+</div>
+
+
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_WriteText_" data-uid="BOOSE.Interpreter.BOOSECanvas.WriteText*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_WriteText_System_String_" data-uid="BOOSE.Interpreter.BOOSECanvas.WriteText(System.String)">
+  WriteText(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes text at the current cursor position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteText(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text string to display on the canvas.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="BOOSE_Interpreter_BOOSECanvas_WriteText_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Text is rendered using the Consolas font at size 10 in the current brush color.</p>
+</div>
+
+
+
+
+  <a id="BOOSE_Interpreter_BOOSECanvas_getBitmap_" data-uid="BOOSE.Interpreter.BOOSECanvas.getBitmap*"></a>
+
+  <h3 id="BOOSE_Interpreter_BOOSECanvas_getBitmap" data-uid="BOOSE.Interpreter.BOOSECanvas.getBitmap">
+  getBitmap()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the underlying bitmap that contains the drawn graphics.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override object getBitmap()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.bitmap">Bitmap</a> object containing the canvas content, or a 1x1 pixel bitmap if no bitmap exists.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/BOOSECanvas.cs/#L7" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

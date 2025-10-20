@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Getting Started | BOOSE Interpreter Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Getting Started | BOOSE Interpreter Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/docs/getting-started.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="BOOSE Interpreter">
+            BOOSE Interpreter
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="getting-started">Getting Started</h1>
+
+<p>This guide will help you get up and running with the BOOSE interpreter.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>.NET 8.0 SDK or later</li>
+<li>Visual Studio 2022 or Visual Studio Code (with C# extension)</li>
+<li>Windows operating system (for Windows Forms UI)</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<h3 id="building-from-source">Building from Source</h3>
+<ol>
+<li><p><strong>Clone the repository:</strong></p>
+<pre><code class="lang-bash">git clone &lt;repository-url&gt;
+cd ase-assignment-davidcralph
+</code></pre>
+</li>
+<li><p><strong>Restore dependencies:</strong></p>
+<pre><code class="lang-bash">dotnet restore
+</code></pre>
+</li>
+<li><p><strong>Build the project:</strong></p>
+<pre><code class="lang-bash">dotnet build
+</code></pre>
+</li>
+<li><p><strong>Run the interpreter:</strong></p>
+<pre><code class="lang-bash">dotnet run --project BOOSE.Interpreter
+</code></pre>
+</li>
+</ol>
+<h3 id="running-tests">Running Tests</h3>
+<p>To verify your installation, run the unit tests:</p>
+<pre><code class="lang-bash">dotnet test
+</code></pre>
+<h2 id="your-first-boose-program">Your First BOOSE Program</h2>
+<p>Let's create a simple BOOSE program that draws a smiley face.</p>
+<h3 id="using-the-gui">Using the GUI</h3>
+<ol>
+<li><strong>Launch the BOOSE Interpreter</strong> application</li>
+<li><strong>Type the following code</strong> in the program editor:</li>
+</ol>
+<pre><code class="lang-boose">pen 255,255,0
+moveto 200, 200
+circle 100
+
+pen 0,0,0
+moveto 170, 170
+circle 10
+
+moveto 230, 170
+circle 10
+
+moveto 150, 230
+drawto 250, 230
+</code></pre>
+<ol start="3">
+<li><strong>Click the &quot;Run&quot; button</strong></li>
+<li><strong>View the output</strong> in the canvas area - you should see a yellow smiley face!</li>
+</ol>
+<h3 id="understanding-the-code">Understanding the Code</h3>
+<ul>
+<li><code>pen 255,255,0</code> - Sets the pen color to yellow (Red=255, Green=255, Blue=0)</li>
+<li><code>moveto 200, 200</code> - Moves the pen to position (200, 200) without drawing</li>
+<li><code>circle 100</code> - Draws a circle with radius 100 at the current position</li>
+<li><code>pen 0,0,0</code> - Changes pen color to black</li>
+<li><code>drawto 250, 230</code> - Draws a line from current position to (250, 230)</li>
+</ul>
+<h2 id="loading-example-programs">Loading Example Programs</h2>
+<p>The project includes numerous example programs in the <code>BOOSEexamplePrograms</code> folder:</p>
+<ol>
+<li><strong>Click File &gt; Open</strong> in the BOOSE Interpreter</li>
+<li><strong>Navigate to</strong> <code>BOOSEexamplePrograms/1BasicDrawing/</code></li>
+<li><strong>Select</strong> <code>1unrestrictedDrawing.boose</code></li>
+<li><strong>Click Run</strong> to execute the program</li>
+</ol>
+<h3 id="example-program-categories">Example Program Categories</h3>
+<ul>
+<li><strong>1BasicDrawing</strong>: Simple drawing commands (moveto, drawto, circle, rect, pen)</li>
+<li><strong>2Variables</strong>: Integer, real, array, and boolean variables</li>
+<li><strong>3IfsAndLoops</strong>: If/else statements, while loops, and for loops</li>
+<li><strong>4Methods</strong>: Method definitions and calls</li>
+<li><strong>5miscellaneous</strong>: Larger programs demonstrating multiple features</li>
+</ul>
+<h2 id="basic-boose-syntax">Basic BOOSE Syntax</h2>
+<h3 id="drawing-commands">Drawing Commands</h3>
+<pre><code class="lang-boose">moveto x, y          # Move pen to position (x,y)
+drawto x, y          # Draw line to position (x,y)
+circle radius        # Draw circle at current position
+rect width, height   # Draw rectangle at current position
+pen r, g, b          # Set pen color (RGB values 0-255)
+write &quot;text&quot;         # Write text at current position
+reset                # Reset pen to origin (0,0)
+</code></pre>
+<h3 id="variables">Variables</h3>
+<pre><code class="lang-boose">int myNumber = 42
+real price = 19.99
+int result
+result = myNumber * 2
+</code></pre>
+<h3 id="arrays">Arrays</h3>
+<pre><code class="lang-boose">array int numbers 10     # Declare array of 10 integers
+poke numbers 0 = 100     # Set element at index 0 to 100
+peek value = numbers 0   # Read element at index 0 into variable
+</code></pre>
+<h3 id="control-flow">Control Flow</h3>
+<pre><code class="lang-boose">if x &gt; 10
+    circle 50
+else
+    circle 25
+end if
+
+while count &lt; 5
+    circle count * 10
+    count = count + 1
+end while
+
+for i = 1 to 10 step 2
+    moveto i * 20, 100
+    circle 10
+end for
+</code></pre>
+<h3 id="methods">Methods</h3>
+<pre><code class="lang-boose">method int square int num
+    square = num * num
+end method
+
+call square 5
+write square
+</code></pre>
+<h2 id="debugging">Debugging</h2>
+<h3 id="using-the-debug-window">Using the Debug Window</h3>
+<ol>
+<li><strong>Click View &gt; Debug</strong> to open the debug window</li>
+<li><strong>Run your program</strong> - execution traces will appear in the debug window</li>
+<li><strong>Review output</strong> to identify syntax errors or runtime issues</li>
+</ol>
+<h3 id="common-errors">Common Errors</h3>
+<p><strong>Syntax Error: Unexpected token</strong></p>
+<ul>
+<li>Check your command spelling and syntax</li>
+<li>Ensure proper spacing and commas in parameters</li>
+<li>Verify all control structures have matching <code>end</code> statements</li>
+</ul>
+<p><strong>Variable not declared</strong></p>
+<ul>
+<li>Declare variables before using them: <code>int myVar = 0</code></li>
+<li>Check for typos in variable names</li>
+</ul>
+<p><strong>Index out of bounds</strong></p>
+<ul>
+<li>Array indices must be within the declared size</li>
+<li>Arrays are 0-indexed (first element is at index 0)</li>
+</ul>
+<h2 id="programmatic-usage">Programmatic Usage</h2>
+<p>You can also use the BOOSE interpreter programmatically in your C# code:</p>
+<pre><code class="lang-csharp">using BOOSE.Interpreter;
+
+// Create a canvas
+BOOSECanvas canvas = new();
+canvas.Set(400, 400);
+
+// Create program runner
+BOOSEProgramRunner runner = new(canvas);
+
+// Execute BOOSE code
+string program = @&quot;
+    pen 255,0,0
+    moveto 100,100
+    circle 50
+&quot;;
+
+try
+{
+    runner.ExecuteProgram(program);
+    // Canvas now contains the drawing
+}
+catch (Exception ex)
+{
+    Console.WriteLine($&quot;Error: {ex.Message}&quot;);
+}
+</code></pre>
+<h2 id="next-steps">Next Steps</h2>
+<p>Now that you have BOOSE running, you can:</p>
+<ol>
+<li><strong>Explore the example programs</strong> to see what's possible</li>
+<li><strong>Read the Language Reference</strong> for detailed syntax documentation</li>
+<li><strong>Write your own programs</strong> to create drawings and learn programming</li>
+<li><strong>Review the Architecture Guide</strong> to understand the interpreter design</li>
+<li><strong>Run unit tests</strong> to see how commands are tested</li>
+</ol>
+<h2 id="getting-help">Getting Help</h2>
+<p>If you encounter issues:</p>
+<ul>
+<li>Check the debug window for detailed error messages</li>
+<li>Review the example programs for correct syntax</li>
+<li>Examine the unit tests in <a href="../../BOOSE.Interpreter.Tests/">BOOSE.Interpreter.Tests</a></li>
+<li>Review the project documentation in the <a href=".">docs</a> folder</li>
+</ul>
+<p>Happy coding with BOOSE!</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/docs/getting-started.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

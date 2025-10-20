@@ -1,0 +1,487 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: BOOSE.Interpreter
+  name: BOOSE.Interpreter
+  href: api/BOOSE.Interpreter.html
+  commentId: N:BOOSE.Interpreter
+  fullName: BOOSE.Interpreter
+  nameWithType: BOOSE.Interpreter
+- uid: BOOSE.Interpreter.AboutCommand
+  name: AboutCommand
+  href: api/BOOSE.Interpreter.AboutCommand.html
+  commentId: T:BOOSE.Interpreter.AboutCommand
+  fullName: BOOSE.Interpreter.AboutCommand
+  nameWithType: AboutCommand
+- uid: BOOSE.Interpreter.AboutCommand.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSE.Interpreter.AboutCommand.html#BOOSE_Interpreter_AboutCommand_CheckParameters_System_String___
+  commentId: M:BOOSE.Interpreter.AboutCommand.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSE.Interpreter.AboutCommand.CheckParameters(string[])
+  fullName.vb: BOOSE.Interpreter.AboutCommand.CheckParameters(String())
+  nameWithType: AboutCommand.CheckParameters(string[])
+  nameWithType.vb: AboutCommand.CheckParameters(String())
+- uid: BOOSE.Interpreter.AboutCommand.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSE.Interpreter.AboutCommand.html#BOOSE_Interpreter_AboutCommand_CheckParameters_
+  commentId: Overload:BOOSE.Interpreter.AboutCommand.CheckParameters
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.AboutCommand.CheckParameters
+  nameWithType: AboutCommand.CheckParameters
+- uid: BOOSE.Interpreter.AboutCommand.Execute
+  name: Execute()
+  href: api/BOOSE.Interpreter.AboutCommand.html#BOOSE_Interpreter_AboutCommand_Execute
+  commentId: M:BOOSE.Interpreter.AboutCommand.Execute
+  fullName: BOOSE.Interpreter.AboutCommand.Execute()
+  nameWithType: AboutCommand.Execute()
+- uid: BOOSE.Interpreter.AboutCommand.Execute*
+  name: Execute
+  href: api/BOOSE.Interpreter.AboutCommand.html#BOOSE_Interpreter_AboutCommand_Execute_
+  commentId: Overload:BOOSE.Interpreter.AboutCommand.Execute
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.AboutCommand.Execute
+  nameWithType: AboutCommand.Execute
+- uid: BOOSE.Interpreter.BOOSECanvas
+  name: BOOSECanvas
+  href: api/BOOSE.Interpreter.BOOSECanvas.html
+  commentId: T:BOOSE.Interpreter.BOOSECanvas
+  fullName: BOOSE.Interpreter.BOOSECanvas
+  nameWithType: BOOSECanvas
+- uid: BOOSE.Interpreter.BOOSECanvas.#ctor
+  name: BOOSECanvas()
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas__ctor
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.#ctor
+  name.vb: New()
+  fullName: BOOSE.Interpreter.BOOSECanvas.BOOSECanvas()
+  fullName.vb: BOOSE.Interpreter.BOOSECanvas.New()
+  nameWithType: BOOSECanvas.BOOSECanvas()
+  nameWithType.vb: BOOSECanvas.New()
+- uid: BOOSE.Interpreter.BOOSECanvas.#ctor*
+  name: BOOSECanvas
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas__ctor_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.Interpreter.BOOSECanvas.BOOSECanvas
+  fullName.vb: BOOSE.Interpreter.BOOSECanvas.New
+  nameWithType: BOOSECanvas.BOOSECanvas
+  nameWithType.vb: BOOSECanvas.New
+- uid: BOOSE.Interpreter.BOOSECanvas.Circle(System.Int32,System.Boolean)
+  name: Circle(int, bool)
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Circle_System_Int32_System_Boolean_
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.Circle(System.Int32,System.Boolean)
+  name.vb: Circle(Integer, Boolean)
+  fullName: BOOSE.Interpreter.BOOSECanvas.Circle(int, bool)
+  fullName.vb: BOOSE.Interpreter.BOOSECanvas.Circle(Integer, Boolean)
+  nameWithType: BOOSECanvas.Circle(int, bool)
+  nameWithType.vb: BOOSECanvas.Circle(Integer, Boolean)
+- uid: BOOSE.Interpreter.BOOSECanvas.Circle*
+  name: Circle
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Circle_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.Circle
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.Circle
+  nameWithType: BOOSECanvas.Circle
+- uid: BOOSE.Interpreter.BOOSECanvas.Clear
+  name: Clear()
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Clear
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.Clear
+  fullName: BOOSE.Interpreter.BOOSECanvas.Clear()
+  nameWithType: BOOSECanvas.Clear()
+- uid: BOOSE.Interpreter.BOOSECanvas.Clear*
+  name: Clear
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Clear_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.Clear
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.Clear
+  nameWithType: BOOSECanvas.Clear
+- uid: BOOSE.Interpreter.BOOSECanvas.DrawTo(System.Int32,System.Int32)
+  name: DrawTo(int, int)
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_DrawTo_System_Int32_System_Int32_
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.DrawTo(System.Int32,System.Int32)
+  name.vb: DrawTo(Integer, Integer)
+  fullName: BOOSE.Interpreter.BOOSECanvas.DrawTo(int, int)
+  fullName.vb: BOOSE.Interpreter.BOOSECanvas.DrawTo(Integer, Integer)
+  nameWithType: BOOSECanvas.DrawTo(int, int)
+  nameWithType.vb: BOOSECanvas.DrawTo(Integer, Integer)
+- uid: BOOSE.Interpreter.BOOSECanvas.DrawTo*
+  name: DrawTo
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_DrawTo_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.DrawTo
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.DrawTo
+  nameWithType: BOOSECanvas.DrawTo
+- uid: BOOSE.Interpreter.BOOSECanvas.MoveTo(System.Int32,System.Int32)
+  name: MoveTo(int, int)
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_MoveTo_System_Int32_System_Int32_
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.MoveTo(System.Int32,System.Int32)
+  name.vb: MoveTo(Integer, Integer)
+  fullName: BOOSE.Interpreter.BOOSECanvas.MoveTo(int, int)
+  fullName.vb: BOOSE.Interpreter.BOOSECanvas.MoveTo(Integer, Integer)
+  nameWithType: BOOSECanvas.MoveTo(int, int)
+  nameWithType.vb: BOOSECanvas.MoveTo(Integer, Integer)
+- uid: BOOSE.Interpreter.BOOSECanvas.MoveTo*
+  name: MoveTo
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_MoveTo_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.MoveTo
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.MoveTo
+  nameWithType: BOOSECanvas.MoveTo
+- uid: BOOSE.Interpreter.BOOSECanvas.PenColour
+  name: PenColour
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_PenColour
+  commentId: P:BOOSE.Interpreter.BOOSECanvas.PenColour
+  fullName: BOOSE.Interpreter.BOOSECanvas.PenColour
+  nameWithType: BOOSECanvas.PenColour
+- uid: BOOSE.Interpreter.BOOSECanvas.PenColour*
+  name: PenColour
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_PenColour_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.PenColour
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.PenColour
+  nameWithType: BOOSECanvas.PenColour
+- uid: BOOSE.Interpreter.BOOSECanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name: Rect(int, int, bool)
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  fullName: BOOSE.Interpreter.BOOSECanvas.Rect(int, int, bool)
+  fullName.vb: BOOSE.Interpreter.BOOSECanvas.Rect(Integer, Integer, Boolean)
+  nameWithType: BOOSECanvas.Rect(int, int, bool)
+  nameWithType.vb: BOOSECanvas.Rect(Integer, Integer, Boolean)
+- uid: BOOSE.Interpreter.BOOSECanvas.Rect*
+  name: Rect
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Rect_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.Rect
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.Rect
+  nameWithType: BOOSECanvas.Rect
+- uid: BOOSE.Interpreter.BOOSECanvas.Rectangle(System.Int32,System.Int32,System.Boolean)
+  name: Rectangle(int, int, bool)
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Rectangle_System_Int32_System_Int32_System_Boolean_
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.Rectangle(System.Int32,System.Int32,System.Boolean)
+  name.vb: Rectangle(Integer, Integer, Boolean)
+  fullName: BOOSE.Interpreter.BOOSECanvas.Rectangle(int, int, bool)
+  fullName.vb: BOOSE.Interpreter.BOOSECanvas.Rectangle(Integer, Integer, Boolean)
+  nameWithType: BOOSECanvas.Rectangle(int, int, bool)
+  nameWithType.vb: BOOSECanvas.Rectangle(Integer, Integer, Boolean)
+- uid: BOOSE.Interpreter.BOOSECanvas.Rectangle*
+  name: Rectangle
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Rectangle_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.Rectangle
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.Rectangle
+  nameWithType: BOOSECanvas.Rectangle
+- uid: BOOSE.Interpreter.BOOSECanvas.Reset
+  name: Reset()
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Reset
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.Reset
+  fullName: BOOSE.Interpreter.BOOSECanvas.Reset()
+  nameWithType: BOOSECanvas.Reset()
+- uid: BOOSE.Interpreter.BOOSECanvas.Reset*
+  name: Reset
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Reset_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.Reset
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.Reset
+  nameWithType: BOOSECanvas.Reset
+- uid: BOOSE.Interpreter.BOOSECanvas.Set(System.Int32,System.Int32)
+  name: Set(int, int)
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Set_System_Int32_System_Int32_
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.Set(System.Int32,System.Int32)
+  name.vb: Set(Integer, Integer)
+  fullName: BOOSE.Interpreter.BOOSECanvas.Set(int, int)
+  fullName.vb: BOOSE.Interpreter.BOOSECanvas.Set(Integer, Integer)
+  nameWithType: BOOSECanvas.Set(int, int)
+  nameWithType.vb: BOOSECanvas.Set(Integer, Integer)
+- uid: BOOSE.Interpreter.BOOSECanvas.Set*
+  name: Set
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Set_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.Set
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.Set
+  nameWithType: BOOSECanvas.Set
+- uid: BOOSE.Interpreter.BOOSECanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name: SetColour(int, int, int)
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name.vb: SetColour(Integer, Integer, Integer)
+  fullName: BOOSE.Interpreter.BOOSECanvas.SetColour(int, int, int)
+  fullName.vb: BOOSE.Interpreter.BOOSECanvas.SetColour(Integer, Integer, Integer)
+  nameWithType: BOOSECanvas.SetColour(int, int, int)
+  nameWithType.vb: BOOSECanvas.SetColour(Integer, Integer, Integer)
+- uid: BOOSE.Interpreter.BOOSECanvas.SetColour*
+  name: SetColour
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_SetColour_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.SetColour
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.SetColour
+  nameWithType: BOOSECanvas.SetColour
+- uid: BOOSE.Interpreter.BOOSECanvas.Tri(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Tri_System_Int32_System_Int32_
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.Tri(System.Int32,System.Int32)
+  name.vb: Tri(Integer, Integer)
+  fullName: BOOSE.Interpreter.BOOSECanvas.Tri(int, int)
+  fullName.vb: BOOSE.Interpreter.BOOSECanvas.Tri(Integer, Integer)
+  nameWithType: BOOSECanvas.Tri(int, int)
+  nameWithType.vb: BOOSECanvas.Tri(Integer, Integer)
+- uid: BOOSE.Interpreter.BOOSECanvas.Tri*
+  name: Tri
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_Tri_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.Tri
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.Tri
+  nameWithType: BOOSECanvas.Tri
+- uid: BOOSE.Interpreter.BOOSECanvas.WriteText(System.String)
+  name: WriteText(string)
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_WriteText_System_String_
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: BOOSE.Interpreter.BOOSECanvas.WriteText(string)
+  fullName.vb: BOOSE.Interpreter.BOOSECanvas.WriteText(String)
+  nameWithType: BOOSECanvas.WriteText(string)
+  nameWithType.vb: BOOSECanvas.WriteText(String)
+- uid: BOOSE.Interpreter.BOOSECanvas.WriteText*
+  name: WriteText
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_WriteText_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.WriteText
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.WriteText
+  nameWithType: BOOSECanvas.WriteText
+- uid: BOOSE.Interpreter.BOOSECanvas.getBitmap
+  name: getBitmap()
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_getBitmap
+  commentId: M:BOOSE.Interpreter.BOOSECanvas.getBitmap
+  fullName: BOOSE.Interpreter.BOOSECanvas.getBitmap()
+  nameWithType: BOOSECanvas.getBitmap()
+- uid: BOOSE.Interpreter.BOOSECanvas.getBitmap*
+  name: getBitmap
+  href: api/BOOSE.Interpreter.BOOSECanvas.html#BOOSE_Interpreter_BOOSECanvas_getBitmap_
+  commentId: Overload:BOOSE.Interpreter.BOOSECanvas.getBitmap
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECanvas.getBitmap
+  nameWithType: BOOSECanvas.getBitmap
+- uid: BOOSE.Interpreter.BOOSECommandFactory
+  name: BOOSECommandFactory
+  href: api/BOOSE.Interpreter.BOOSECommandFactory.html
+  commentId: T:BOOSE.Interpreter.BOOSECommandFactory
+  fullName: BOOSE.Interpreter.BOOSECommandFactory
+  nameWithType: BOOSECommandFactory
+- uid: BOOSE.Interpreter.BOOSECommandFactory.MakeCommand(System.String)
+  name: MakeCommand(string)
+  href: api/BOOSE.Interpreter.BOOSECommandFactory.html#BOOSE_Interpreter_BOOSECommandFactory_MakeCommand_System_String_
+  commentId: M:BOOSE.Interpreter.BOOSECommandFactory.MakeCommand(System.String)
+  name.vb: MakeCommand(String)
+  fullName: BOOSE.Interpreter.BOOSECommandFactory.MakeCommand(string)
+  fullName.vb: BOOSE.Interpreter.BOOSECommandFactory.MakeCommand(String)
+  nameWithType: BOOSECommandFactory.MakeCommand(string)
+  nameWithType.vb: BOOSECommandFactory.MakeCommand(String)
+- uid: BOOSE.Interpreter.BOOSECommandFactory.MakeCommand*
+  name: MakeCommand
+  href: api/BOOSE.Interpreter.BOOSECommandFactory.html#BOOSE_Interpreter_BOOSECommandFactory_MakeCommand_
+  commentId: Overload:BOOSE.Interpreter.BOOSECommandFactory.MakeCommand
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSECommandFactory.MakeCommand
+  nameWithType: BOOSECommandFactory.MakeCommand
+- uid: BOOSE.Interpreter.BOOSEProgramRunner
+  name: BOOSEProgramRunner
+  href: api/BOOSE.Interpreter.BOOSEProgramRunner.html
+  commentId: T:BOOSE.Interpreter.BOOSEProgramRunner
+  fullName: BOOSE.Interpreter.BOOSEProgramRunner
+  nameWithType: BOOSEProgramRunner
+- uid: BOOSE.Interpreter.BOOSEProgramRunner.#ctor(BOOSE.Canvas)
+  name: BOOSEProgramRunner(Canvas)
+  href: api/BOOSE.Interpreter.BOOSEProgramRunner.html#BOOSE_Interpreter_BOOSEProgramRunner__ctor_BOOSE_Canvas_
+  commentId: M:BOOSE.Interpreter.BOOSEProgramRunner.#ctor(BOOSE.Canvas)
+  name.vb: New(Canvas)
+  fullName: BOOSE.Interpreter.BOOSEProgramRunner.BOOSEProgramRunner(BOOSE.Canvas)
+  fullName.vb: BOOSE.Interpreter.BOOSEProgramRunner.New(BOOSE.Canvas)
+  nameWithType: BOOSEProgramRunner.BOOSEProgramRunner(Canvas)
+  nameWithType.vb: BOOSEProgramRunner.New(Canvas)
+- uid: BOOSE.Interpreter.BOOSEProgramRunner.#ctor*
+  name: BOOSEProgramRunner
+  href: api/BOOSE.Interpreter.BOOSEProgramRunner.html#BOOSE_Interpreter_BOOSEProgramRunner__ctor_
+  commentId: Overload:BOOSE.Interpreter.BOOSEProgramRunner.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.Interpreter.BOOSEProgramRunner.BOOSEProgramRunner
+  fullName.vb: BOOSE.Interpreter.BOOSEProgramRunner.New
+  nameWithType: BOOSEProgramRunner.BOOSEProgramRunner
+  nameWithType.vb: BOOSEProgramRunner.New
+- uid: BOOSE.Interpreter.BOOSEProgramRunner.ExecuteProgram(System.String)
+  name: ExecuteProgram(string)
+  href: api/BOOSE.Interpreter.BOOSEProgramRunner.html#BOOSE_Interpreter_BOOSEProgramRunner_ExecuteProgram_System_String_
+  commentId: M:BOOSE.Interpreter.BOOSEProgramRunner.ExecuteProgram(System.String)
+  name.vb: ExecuteProgram(String)
+  fullName: BOOSE.Interpreter.BOOSEProgramRunner.ExecuteProgram(string)
+  fullName.vb: BOOSE.Interpreter.BOOSEProgramRunner.ExecuteProgram(String)
+  nameWithType: BOOSEProgramRunner.ExecuteProgram(string)
+  nameWithType.vb: BOOSEProgramRunner.ExecuteProgram(String)
+- uid: BOOSE.Interpreter.BOOSEProgramRunner.ExecuteProgram*
+  name: ExecuteProgram
+  href: api/BOOSE.Interpreter.BOOSEProgramRunner.html#BOOSE_Interpreter_BOOSEProgramRunner_ExecuteProgram_
+  commentId: Overload:BOOSE.Interpreter.BOOSEProgramRunner.ExecuteProgram
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.BOOSEProgramRunner.ExecuteProgram
+  nameWithType: BOOSEProgramRunner.ExecuteProgram
+- uid: BOOSE.Interpreter.DebugWindow
+  name: DebugWindow
+  href: api/BOOSE.Interpreter.DebugWindow.html
+  commentId: T:BOOSE.Interpreter.DebugWindow
+  fullName: BOOSE.Interpreter.DebugWindow
+  nameWithType: DebugWindow
+- uid: BOOSE.Interpreter.DebugWindow.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/BOOSE.Interpreter.DebugWindow.html#BOOSE_Interpreter_DebugWindow_Dispose_System_Boolean_
+  commentId: M:BOOSE.Interpreter.DebugWindow.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: BOOSE.Interpreter.DebugWindow.Dispose(bool)
+  fullName.vb: BOOSE.Interpreter.DebugWindow.Dispose(Boolean)
+  nameWithType: DebugWindow.Dispose(bool)
+  nameWithType.vb: DebugWindow.Dispose(Boolean)
+- uid: BOOSE.Interpreter.DebugWindow.Dispose*
+  name: Dispose
+  href: api/BOOSE.Interpreter.DebugWindow.html#BOOSE_Interpreter_DebugWindow_Dispose_
+  commentId: Overload:BOOSE.Interpreter.DebugWindow.Dispose
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.DebugWindow.Dispose
+  nameWithType: DebugWindow.Dispose
+- uid: BOOSE.Interpreter.DebugWindow.Instance
+  name: Instance
+  href: api/BOOSE.Interpreter.DebugWindow.html#BOOSE_Interpreter_DebugWindow_Instance
+  commentId: P:BOOSE.Interpreter.DebugWindow.Instance
+  fullName: BOOSE.Interpreter.DebugWindow.Instance
+  nameWithType: DebugWindow.Instance
+- uid: BOOSE.Interpreter.DebugWindow.Instance*
+  name: Instance
+  href: api/BOOSE.Interpreter.DebugWindow.html#BOOSE_Interpreter_DebugWindow_Instance_
+  commentId: Overload:BOOSE.Interpreter.DebugWindow.Instance
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.DebugWindow.Instance
+  nameWithType: DebugWindow.Instance
+- uid: BOOSE.Interpreter.DebugWindow.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)
+  name: OnFormClosing(FormClosingEventArgs)
+  href: api/BOOSE.Interpreter.DebugWindow.html#BOOSE_Interpreter_DebugWindow_OnFormClosing_System_Windows_Forms_FormClosingEventArgs_
+  commentId: M:BOOSE.Interpreter.DebugWindow.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)
+  fullName: BOOSE.Interpreter.DebugWindow.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)
+  nameWithType: DebugWindow.OnFormClosing(FormClosingEventArgs)
+- uid: BOOSE.Interpreter.DebugWindow.OnFormClosing*
+  name: OnFormClosing
+  href: api/BOOSE.Interpreter.DebugWindow.html#BOOSE_Interpreter_DebugWindow_OnFormClosing_
+  commentId: Overload:BOOSE.Interpreter.DebugWindow.OnFormClosing
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.DebugWindow.OnFormClosing
+  nameWithType: DebugWindow.OnFormClosing
+- uid: BOOSE.Interpreter.MainWindow
+  name: MainWindow
+  href: api/BOOSE.Interpreter.MainWindow.html
+  commentId: T:BOOSE.Interpreter.MainWindow
+  fullName: BOOSE.Interpreter.MainWindow
+  nameWithType: MainWindow
+- uid: BOOSE.Interpreter.MainWindow.#ctor
+  name: MainWindow()
+  href: api/BOOSE.Interpreter.MainWindow.html#BOOSE_Interpreter_MainWindow__ctor
+  commentId: M:BOOSE.Interpreter.MainWindow.#ctor
+  name.vb: New()
+  fullName: BOOSE.Interpreter.MainWindow.MainWindow()
+  fullName.vb: BOOSE.Interpreter.MainWindow.New()
+  nameWithType: MainWindow.MainWindow()
+  nameWithType.vb: MainWindow.New()
+- uid: BOOSE.Interpreter.MainWindow.#ctor*
+  name: MainWindow
+  href: api/BOOSE.Interpreter.MainWindow.html#BOOSE_Interpreter_MainWindow__ctor_
+  commentId: Overload:BOOSE.Interpreter.MainWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.Interpreter.MainWindow.MainWindow
+  fullName.vb: BOOSE.Interpreter.MainWindow.New
+  nameWithType: MainWindow.MainWindow
+  nameWithType.vb: MainWindow.New
+- uid: BOOSE.Interpreter.MainWindow.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/BOOSE.Interpreter.MainWindow.html#BOOSE_Interpreter_MainWindow_Dispose_System_Boolean_
+  commentId: M:BOOSE.Interpreter.MainWindow.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: BOOSE.Interpreter.MainWindow.Dispose(bool)
+  fullName.vb: BOOSE.Interpreter.MainWindow.Dispose(Boolean)
+  nameWithType: MainWindow.Dispose(bool)
+  nameWithType.vb: MainWindow.Dispose(Boolean)
+- uid: BOOSE.Interpreter.MainWindow.Dispose*
+  name: Dispose
+  href: api/BOOSE.Interpreter.MainWindow.html#BOOSE_Interpreter_MainWindow_Dispose_
+  commentId: Overload:BOOSE.Interpreter.MainWindow.Dispose
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.MainWindow.Dispose
+  nameWithType: MainWindow.Dispose
+- uid: BOOSE.Interpreter.TextBoxTraceListener
+  name: TextBoxTraceListener
+  href: api/BOOSE.Interpreter.TextBoxTraceListener.html
+  commentId: T:BOOSE.Interpreter.TextBoxTraceListener
+  fullName: BOOSE.Interpreter.TextBoxTraceListener
+  nameWithType: TextBoxTraceListener
+- uid: BOOSE.Interpreter.TextBoxTraceListener.#ctor(System.Windows.Forms.TextBox)
+  name: TextBoxTraceListener(TextBox)
+  href: api/BOOSE.Interpreter.TextBoxTraceListener.html#BOOSE_Interpreter_TextBoxTraceListener__ctor_System_Windows_Forms_TextBox_
+  commentId: M:BOOSE.Interpreter.TextBoxTraceListener.#ctor(System.Windows.Forms.TextBox)
+  name.vb: New(TextBox)
+  fullName: BOOSE.Interpreter.TextBoxTraceListener.TextBoxTraceListener(System.Windows.Forms.TextBox)
+  fullName.vb: BOOSE.Interpreter.TextBoxTraceListener.New(System.Windows.Forms.TextBox)
+  nameWithType: TextBoxTraceListener.TextBoxTraceListener(TextBox)
+  nameWithType.vb: TextBoxTraceListener.New(TextBox)
+- uid: BOOSE.Interpreter.TextBoxTraceListener.#ctor*
+  name: TextBoxTraceListener
+  href: api/BOOSE.Interpreter.TextBoxTraceListener.html#BOOSE_Interpreter_TextBoxTraceListener__ctor_
+  commentId: Overload:BOOSE.Interpreter.TextBoxTraceListener.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.Interpreter.TextBoxTraceListener.TextBoxTraceListener
+  fullName.vb: BOOSE.Interpreter.TextBoxTraceListener.New
+  nameWithType: TextBoxTraceListener.TextBoxTraceListener
+  nameWithType.vb: TextBoxTraceListener.New
+- uid: BOOSE.Interpreter.TextBoxTraceListener.TextBox
+  name: TextBox
+  href: api/BOOSE.Interpreter.TextBoxTraceListener.html#BOOSE_Interpreter_TextBoxTraceListener_TextBox
+  commentId: P:BOOSE.Interpreter.TextBoxTraceListener.TextBox
+  fullName: BOOSE.Interpreter.TextBoxTraceListener.TextBox
+  nameWithType: TextBoxTraceListener.TextBox
+- uid: BOOSE.Interpreter.TextBoxTraceListener.TextBox*
+  name: TextBox
+  href: api/BOOSE.Interpreter.TextBoxTraceListener.html#BOOSE_Interpreter_TextBoxTraceListener_TextBox_
+  commentId: Overload:BOOSE.Interpreter.TextBoxTraceListener.TextBox
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.TextBoxTraceListener.TextBox
+  nameWithType: TextBoxTraceListener.TextBox
+- uid: BOOSE.Interpreter.TextBoxTraceListener.Write(System.String)
+  name: Write(string?)
+  href: api/BOOSE.Interpreter.TextBoxTraceListener.html#BOOSE_Interpreter_TextBoxTraceListener_Write_System_String_
+  commentId: M:BOOSE.Interpreter.TextBoxTraceListener.Write(System.String)
+  name.vb: Write(String)
+  fullName: BOOSE.Interpreter.TextBoxTraceListener.Write(string?)
+  fullName.vb: BOOSE.Interpreter.TextBoxTraceListener.Write(String)
+  nameWithType: TextBoxTraceListener.Write(string?)
+  nameWithType.vb: TextBoxTraceListener.Write(String)
+- uid: BOOSE.Interpreter.TextBoxTraceListener.Write*
+  name: Write
+  href: api/BOOSE.Interpreter.TextBoxTraceListener.html#BOOSE_Interpreter_TextBoxTraceListener_Write_
+  commentId: Overload:BOOSE.Interpreter.TextBoxTraceListener.Write
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.TextBoxTraceListener.Write
+  nameWithType: TextBoxTraceListener.Write
+- uid: BOOSE.Interpreter.TextBoxTraceListener.WriteLine(System.String)
+  name: WriteLine(string?)
+  href: api/BOOSE.Interpreter.TextBoxTraceListener.html#BOOSE_Interpreter_TextBoxTraceListener_WriteLine_System_String_
+  commentId: M:BOOSE.Interpreter.TextBoxTraceListener.WriteLine(System.String)
+  name.vb: WriteLine(String)
+  fullName: BOOSE.Interpreter.TextBoxTraceListener.WriteLine(string?)
+  fullName.vb: BOOSE.Interpreter.TextBoxTraceListener.WriteLine(String)
+  nameWithType: TextBoxTraceListener.WriteLine(string?)
+  nameWithType.vb: TextBoxTraceListener.WriteLine(String)
+- uid: BOOSE.Interpreter.TextBoxTraceListener.WriteLine*
+  name: WriteLine
+  href: api/BOOSE.Interpreter.TextBoxTraceListener.html#BOOSE_Interpreter_TextBoxTraceListener_WriteLine_
+  commentId: Overload:BOOSE.Interpreter.TextBoxTraceListener.WriteLine
+  isSpec: "True"
+  fullName: BOOSE.Interpreter.TextBoxTraceListener.WriteLine
+  nameWithType: TextBoxTraceListener.WriteLine

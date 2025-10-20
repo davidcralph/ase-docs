@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Introduction | BOOSE Interpreter Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Introduction | BOOSE Interpreter Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/docs/introduction.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="BOOSE Interpreter">
+            BOOSE Interpreter
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="introduction">Introduction</h1>
+
+<h2 id="what-is-boose">What is BOOSE?</h2>
+<p><strong>BOOSE</strong> (Basic Object Orientated Software Engineering) is an educational programming language designed to teach fundamental programming concepts through visual output. BOOSE combines traditional programming constructs like variables, loops, and methods with a simple graphics system that provides immediate visual feedback.</p>
+<h2 id="purpose-and-design-philosophy">Purpose and Design Philosophy</h2>
+<p>BOOSE was created as a learning tool to help students understand core programming concepts in an engaging, visual way. By drawing shapes and graphics, learners can immediately see the results of their code, making abstract programming concepts more concrete and accessible.</p>
+<p>The language emphasizes:</p>
+<ul>
+<li><strong>Simplicity</strong>: Easy-to-understand syntax with minimal boilerplate</li>
+<li><strong>Visual Feedback</strong>: Every program produces visual output on a canvas</li>
+<li><strong>Progressive Learning</strong>: Start with basic drawing, progress to variables, control flow, and methods</li>
+<li><strong>Object-Oriented Principles</strong>: Commands follow object-oriented design patterns</li>
+</ul>
+<h2 id="key-features">Key Features</h2>
+<h3 id="drawing-commands">Drawing Commands</h3>
+<p>BOOSE provides built-in drawing capabilities:</p>
+<ul>
+<li>Move the pen to any position on the canvas</li>
+<li>Draw lines, circles, and rectangles</li>
+<li>Set pen colors using RGB values</li>
+<li>Write text to the canvas</li>
+</ul>
+<h3 id="programming-constructs">Programming Constructs</h3>
+<p>BOOSE supports standard programming features:</p>
+<ul>
+<li><strong>Variables</strong>: Integer, real, boolean, and array types</li>
+<li><strong>Expressions</strong>: Mathematical operations and comparisons</li>
+<li><strong>Control Flow</strong>: If/else statements, while loops, and for loops</li>
+<li><strong>Methods</strong>: Define reusable functions with parameters and return values</li>
+<li><strong>Arrays</strong>: Fixed-size arrays with poke/peek operations</li>
+</ul>
+<h3 id="example-program">Example Program</h3>
+<p>Here's a simple BOOSE program that draws colored shapes:</p>
+<pre><code class="lang-boose">int radius = 50
+int width = 100
+
+pen 0,0,255
+moveto 100, 100
+circle radius
+
+pen 255,0,0
+moveto 150, 50
+rect width, 100
+</code></pre>
+<p>This program:</p>
+<ol>
+<li>Declares integer variables for radius and width</li>
+<li>Sets the pen color to blue (RGB: 0,0,255)</li>
+<li>Moves to position (100,100) and draws a circle with radius 50</li>
+<li>Changes the pen color to red (RGB: 255,0,0)</li>
+<li>Moves to position (150,50) and draws a 100x100 rectangle</li>
+</ol>
+<h2 id="architecture">Architecture</h2>
+<p>This BOOSE interpreter is built in C# using Windows Forms and follows object-oriented design principles:</p>
+<ul>
+<li><strong>Command Pattern</strong>: Each BOOSE command is implemented as a separate command object</li>
+<li><strong>Factory Pattern</strong>: Commands are created using a factory for flexibility and extensibility</li>
+<li><strong>Singleton Pattern</strong>: Debug window uses singleton pattern for centralized logging</li>
+<li><strong>Parser</strong>: Converts BOOSE source code into executable command objects</li>
+<li><strong>Canvas</strong>: Abstracts graphics operations for drawing output</li>
+</ul>
+<h2 id="use-cases">Use Cases</h2>
+<p>BOOSE is ideal for:</p>
+<ul>
+<li>Learning programming fundamentals in a visual way</li>
+<li>Teaching object-oriented design patterns</li>
+<li>Understanding interpreter and compiler construction</li>
+<li>Practicing software engineering principles (testing, documentation, version control)</li>
+<li>Experimenting with language design and implementation</li>
+</ul>
+<h2 id="project-structure">Project Structure</h2>
+<p>The BOOSE interpreter consists of:</p>
+<ul>
+<li><strong>BOOSE.Interpreter</strong>: Main interpreter implementation with parser, canvas, and UI</li>
+<li><strong>BOOSE.Interpreter.Tests</strong>: Unit tests for commands and interpreter functionality</li>
+<li><strong>BOOSE.dll</strong>: Base library providing core parsing and command infrastructure</li>
+<li><strong>BOOSEexamplePrograms</strong>: Sample programs demonstrating BOOSE features</li>
+</ul>
+<h2 id="next-steps">Next Steps</h2>
+<p>Ready to start using BOOSE? Head over to the <a href="getting-started.html">Getting Started</a> guide to learn how to run your first BOOSE program.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/docs/introduction.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
