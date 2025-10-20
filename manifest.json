@@ -110,6 +110,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.UnrestrictedCircleCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.UnrestrictedCircleCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.UnrestrictedCircleCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.UnrestrictedCircleCommand.yml\" sourcestartlinenumber=\"1\">Unrestricted circle command that accepts any radius size.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.UnrestrictedMoveToCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.UnrestrictedMoveToCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.UnrestrictedMoveToCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.UnrestrictedMoveToCommand.yml\" sourcestartlinenumber=\"1\">Unrestricted moveto command that accepts any coordinates.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.UnrestrictedRectCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.UnrestrictedRectCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.UnrestrictedRectCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.UnrestrictedRectCommand.yml\" sourcestartlinenumber=\"1\">Unrestricted rectangle command that accepts any width and height.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BOOSE.Interpreter.yml",
       "output": {
         ".html": {
