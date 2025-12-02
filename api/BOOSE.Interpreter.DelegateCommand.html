@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class BOOSECommandFactory | BOOSE Interpreter Documentation </title>
+      <title>Class DelegateCommand | BOOSE Interpreter Documentation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class BOOSECommandFactory | BOOSE Interpreter Documentation ">
+      <meta name="title" content="Class DelegateCommand | BOOSE Interpreter Documentation ">
       
-      <meta name="description" content="Factory class for creating BOOSE command objects from command strings. Extends the base  to provide custom command implementations.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/new/main/apiSpec/new?filename=BOOSE_Interpreter_BOOSECommandFactory.md&amp;value=---%0Auid%3A%20BOOSE.Interpreter.BOOSECommandFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/new/main/apiSpec/new?filename=BOOSE_Interpreter_DelegateCommand.md&amp;value=---%0Auid%3A%20BOOSE.Interpreter.DelegateCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSE.Interpreter.BOOSECommandFactory">
+        <article data-uid="BOOSE.Interpreter.DelegateCommand">
 
 
 
-  <h1 id="BOOSE_Interpreter_BOOSECommandFactory" data-uid="BOOSE.Interpreter.BOOSECommandFactory" class="text-break">
-Class BOOSECommandFactory  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Core/BOOSECommandFactory.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSE_Interpreter_DelegateCommand" data-uid="BOOSE.Interpreter.DelegateCommand" class="text-break">
+Class DelegateCommand  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L535"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,13 +97,11 @@ Class BOOSECommandFactory  <a class="header-action link-secondary" title="View s
   <dl><dt>Assembly</dt><dd>BOOSE.Interpreter.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Factory class for creating BOOSE command objects from command strings.
-Extends the base <span class="xref">BOOSE.CommandFactory</span> to provide custom command implementations.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BOOSECommandFactory : CommandFactory, ICommandFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public class DelegateCommand : ICommand</code></pre>
   </div>
 
 
@@ -113,15 +111,14 @@ Extends the base <span class="xref">BOOSE.CommandFactory</span> to provide custo
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">CommandFactory</span></div>
-      <div><span class="xref">BOOSECommandFactory</span></div>
+      <div><span class="xref">DelegateCommand</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><span class="xref">ICommandFactory</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.icommand">ICommand</a></div>
     </dd>
   </dl>
 
@@ -155,43 +152,73 @@ Extends the base <span class="xref">BOOSE.CommandFactory</span> to provide custo
 
 
 
-  <h2 id="BOOSE_Interpreter_BOOSECommandFactory_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This factory implements the Factory design pattern, allowing for extensible command creation
-while maintaining compatibility with the base BOOSE command library.</p>
-</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="BOOSE_Interpreter_DelegateCommand__ctor_" data-uid="BOOSE.Interpreter.DelegateCommand.#ctor*"></a>
+
+  <h3 id="BOOSE_Interpreter_DelegateCommand__ctor_System_Action_" data-uid="BOOSE.Interpreter.DelegateCommand.#ctor(System.Action)">
+  DelegateCommand(Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L535"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DelegateCommand(Action execute)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>execute</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="BOOSE_Interpreter_BOOSECommandFactory_MakeCommand_" data-uid="BOOSE.Interpreter.BOOSECommandFactory.MakeCommand*"></a>
+  <a id="BOOSE_Interpreter_DelegateCommand_CanExecute_" data-uid="BOOSE.Interpreter.DelegateCommand.CanExecute*"></a>
 
-  <h3 id="BOOSE_Interpreter_BOOSECommandFactory_MakeCommand_System_String_" data-uid="BOOSE.Interpreter.BOOSECommandFactory.MakeCommand(System.String)">
-  MakeCommand(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Core/BOOSECommandFactory.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_Interpreter_DelegateCommand_CanExecute_System_Object_" data-uid="BOOSE.Interpreter.DelegateCommand.CanExecute(System.Object)">
+  CanExecute(object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L541"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Creates a command object from the specified command string.</p>
+  <div class="markdown level1 summary"><p>Defines the method that determines whether the command can execute in its current state.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override ICommand MakeCommand(string commandString)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CanExecute(object? parameter)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>commandString</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The command string to parse and convert into a command object.</p>
+    <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Data used by the command.  If the command does not require data to be passed, this object can be set to <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><span class="xref">ICommand</span></dt>
-    <dd><p>An <span class="xref">BOOSE.ICommand</span> implementation for the specified command.
-Returns custom commands for recognized command names, or delegates to the base factory for standard BOOSE commands.</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if this command can be executed; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
 </dd>
   </dl>
 
@@ -201,10 +228,74 @@ Returns custom commands for recognized command names, or delegates to the base f
 
 
 
-  <h4 class="section" id="BOOSE_Interpreter_BOOSECommandFactory_MakeCommand_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This method checks for custom command implementations (such as &quot;about&quot;) before delegating
-to the base factory for standard BOOSE commands.</p>
+
+
+
+
+  <a id="BOOSE_Interpreter_DelegateCommand_Execute_" data-uid="BOOSE.Interpreter.DelegateCommand.Execute*"></a>
+
+  <h3 id="BOOSE_Interpreter_DelegateCommand_Execute_System_Object_" data-uid="BOOSE.Interpreter.DelegateCommand.Execute(System.Object)">
+  Execute(object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L546"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Defines the method to be called when the command is invoked.</p>
 </div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Execute(object? parameter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Data used by the command.  If the command does not require data to be passed, this object can be set to <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="BOOSE_Interpreter_DelegateCommand_CanExecuteChanged" data-uid="BOOSE.Interpreter.DelegateCommand.CanExecuteChanged">
+  CanExecuteChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L539"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when changes occur that affect whether or not the command should execute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? CanExecuteChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
 
 
 
@@ -213,7 +304,7 @@ to the base factory for standard BOOSE commands.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Core/BOOSECommandFactory.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L535" class="edit-link">Edit this page</a>
         </div>
 
 

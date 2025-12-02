@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class MainWindow | BOOSE Interpreter Documentation ">
       
-      <meta name="description" content="The main application window for the BOOSE Interpreter.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/new/main/apiSpec/new?filename=BOOSE_Interpreter_MainWindow.md&amp;value=---%0Auid%3A%20BOOSE.Interpreter.MainWindow%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="BOOSE_Interpreter_MainWindow" data-uid="BOOSE.Interpreter.MainWindow" class="text-break">
-Class MainWindow  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/MainWindow.Designer.cs/#L3"><i class="bi bi-code-slash"></i></a>
+Class MainWindow  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
   <dl><dt>Assembly</dt><dd>BOOSE.Interpreter.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The main application window for the BOOSE Interpreter.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MainWindow : Form, IDropTarget, ISynchronizeInvoke, IWin32Window, IBindableComponent, IComponent, IDisposable, IContainerControl</code></pre>
+    <pre><code class="lang-csharp hljs">public class MainWindow : Window, INotifyPropertyChanged, IDataContextProvider, IThemeVariantHost, IResourceHost, IResourceNode, ISetLogicalParent, ISetInheritanceParent, ISupportInitialize, IStyleable, INamed, IDataTemplateHost, ISetterValue, IRenderRoot, ICloseable, IStyleHost, ILogicalRoot, ILogical, ITextInputMethodRoot, IInputRoot, IInputElement, IFocusScope, ILayoutRoot</code></pre>
   </div>
 
 
@@ -112,12 +111,19 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject">MarshalByRefObject</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component">Component</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control">Control</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol">ScrollableControl</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol">ContainerControl</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form">Form</a></div>
+      <div><span class="xref">AvaloniaObject</span></div>
+      <div><span class="xref">Animatable</span></div>
+      <div><span class="xref">StyledElement</span></div>
+      <div><span class="xref">Visual</span></div>
+      <div><span class="xref">Layoutable</span></div>
+      <div><span class="xref">Interactive</span></div>
+      <div><span class="xref">InputElement</span></div>
+      <div><span class="xref">Control</span></div>
+      <div><span class="xref">TemplatedControl</span></div>
+      <div><span class="xref">ContentControl</span></div>
+      <div><span class="xref">TopLevel</span></div>
+      <div><span class="xref">WindowBase</span></div>
+      <div><span class="xref">Window</span></div>
       <div><span class="xref">MainWindow</span></div>
     </dd>
   </dl>
@@ -125,13 +131,28 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.idroptarget">IDropTarget</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isynchronizeinvoke">ISynchronizeInvoke</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.iwin32window">IWin32Window</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.ibindablecomponent">IBindableComponent</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.icomponent">IComponent</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.icontainercontrol">IContainerControl</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><span class="xref">IDataContextProvider</span></div>
+      <div><span class="xref">IThemeVariantHost</span></div>
+      <div><span class="xref">IResourceHost</span></div>
+      <div><span class="xref">IResourceNode</span></div>
+      <div><span class="xref">ISetLogicalParent</span></div>
+      <div><span class="xref">ISetInheritanceParent</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitialize">ISupportInitialize</a></div>
+      <div><span class="xref">IStyleable</span></div>
+      <div><span class="xref">INamed</span></div>
+      <div><span class="xref">IDataTemplateHost</span></div>
+      <div><span class="xref">ISetterValue</span></div>
+      <div><span class="xref">IRenderRoot</span></div>
+      <div><span class="xref">ICloseable</span></div>
+      <div><span class="xref">IStyleHost</span></div>
+      <div><span class="xref">ILogicalRoot</span></div>
+      <div><span class="xref">ILogical</span></div>
+      <div><span class="xref">ITextInputMethodRoot</span></div>
+      <div><span class="xref">IInputRoot</span></div>
+      <div><span class="xref">IInputElement</span></div>
+      <div><span class="xref">IFocusScope</span></div>
+      <div><span class="xref">ILayoutRoot</span></div>
     </dd>
   </dl>
 
@@ -140,1540 +161,1255 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.setvisiblecore">Form.SetVisibleCore(bool)</a>
+      <span class="xref">Window.SizeToContentProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.activate">Form.Activate()</a>
+      <span class="xref">Window.ExtendClientAreaToDecorationsHintProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.activatemdichild">Form.ActivateMdiChild(Form)</a>
+      <span class="xref">Window.ExtendClientAreaChromeHintsProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.addownedform">Form.AddOwnedForm(Form)</a>
+      <span class="xref">Window.ExtendClientAreaTitleBarHeightHintProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.adjustformscrollbars">Form.AdjustFormScrollbars(bool)</a>
+      <span class="xref">Window.IsExtendedIntoWindowDecorationsProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.close">Form.Close()</a>
+      <span class="xref">Window.WindowDecorationMarginProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.createaccessibilityinstance">Form.CreateAccessibilityInstance()</a>
+      <span class="xref">Window.OffScreenMarginProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.createcontrolsinstance">Form.CreateControlsInstance()</a>
+      <span class="xref">Window.SystemDecorationsProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.createhandle">Form.CreateHandle()</a>
+      <span class="xref">Window.ShowActivatedProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.defwndproc">Form.DefWndProc(ref Message)</a>
+      <span class="xref">Window.ShowInTaskbarProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.processmnemonic">Form.ProcessMnemonic(char)</a>
+      <span class="xref">Window.ClosingBehaviorProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.centertoparent">Form.CenterToParent()</a>
+      <span class="xref">Window.WindowStateProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.centertoscreen">Form.CenterToScreen()</a>
+      <span class="xref">Window.TitleProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.layoutmdi">Form.LayoutMdi(MdiLayout)</a>
+      <span class="xref">Window.IconProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onactivated">Form.OnActivated(EventArgs)</a>
+      <span class="xref">Window.WindowStartupLocationProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onbackgroundimagechanged">Form.OnBackgroundImageChanged(EventArgs)</a>
+      <span class="xref">Window.CanResizeProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onbackgroundimagelayoutchanged">Form.OnBackgroundImageLayoutChanged(EventArgs)</a>
+      <span class="xref">Window.CanMinimizeProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onclosing">Form.OnClosing(CancelEventArgs)</a>
+      <span class="xref">Window.CanMaximizeProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onclosed">Form.OnClosed(EventArgs)</a>
+      <span class="xref">Window.WindowClosedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onformclosing">Form.OnFormClosing(FormClosingEventArgs)</a>
+      <span class="xref">Window.WindowOpenedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onformclosed">Form.OnFormClosed(FormClosedEventArgs)</a>
+      <span class="xref">Window.BeginMoveDrag(PointerPressedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.oncreatecontrol">Form.OnCreateControl()</a>
+      <span class="xref">Window.BeginResizeDrag(WindowEdge, PointerPressedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.ondeactivate">Form.OnDeactivate(EventArgs)</a>
+      <span class="xref">Window.Close()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onenabledchanged">Form.OnEnabledChanged(EventArgs)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Window.Close(object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onenter">Form.OnEnter(EventArgs)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Window.ExtendClientAreaToDecorationsChanged(bool)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onfontchanged">Form.OnFontChanged(EventArgs)</a>
+      <span class="xref">Window.Hide()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.ongotfocus">Form.OnGotFocus(EventArgs)</a>
+      <span class="xref">Window.Show()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onhandlecreated">Form.OnHandleCreated(EventArgs)</a>
+      <span class="xref">Window.IsVisibleChanged(AvaloniaPropertyChangedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onhandledestroyed">Form.OnHandleDestroyed(EventArgs)</a>
+      <span class="xref">Window.Show(Window)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onhelpbuttonclicked">Form.OnHelpButtonClicked(CancelEventArgs)</a>
+      <span class="xref">Window.ShowDialog(Window)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onlayout">Form.OnLayout(LayoutEventArgs)</a>
+      <span class="xref">Window.ShowDialog&lt;TResult&gt;(Window)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onload">Form.OnLoad(EventArgs)</a>
+      <span class="xref">Window.SortWindowsByZOrder(Window[])</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onmaximizedboundschanged">Form.OnMaximizedBoundsChanged(EventArgs)</a>
+      <span class="xref">Window.MeasureOverride(Size)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onmaximumsizechanged">Form.OnMaximumSizeChanged(EventArgs)</a>
+      <span class="xref">Window.ArrangeSetBounds(Size)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onminimumsizechanged">Form.OnMinimumSizeChanged(EventArgs)</a>
+      <span class="xref">Window.OnClosing(WindowClosingEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.oninputlanguagechanged">Form.OnInputLanguageChanged(InputLanguageChangedEventArgs)</a>
+      <span class="xref">Window.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.oninputlanguagechanging">Form.OnInputLanguageChanging(InputLanguageChangingEventArgs)</a>
+      <span class="xref">Window.OnCreateAutomationPeer()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onvisiblechanged">Form.OnVisibleChanged(EventArgs)</a>
+      <span class="xref">Window.PlatformImpl</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onmdichildactivate">Form.OnMdiChildActivate(EventArgs)</a>
+      <span class="xref">Window.OwnedWindows</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onmenustart">Form.OnMenuStart(EventArgs)</a>
+      <span class="xref">Window.SizeToContent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onmenucomplete">Form.OnMenuComplete(EventArgs)</a>
+      <span class="xref">Window.Title</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onpaint">Form.OnPaint(PaintEventArgs)</a>
+      <span class="xref">Window.ExtendClientAreaToDecorationsHint</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onresize">Form.OnResize(EventArgs)</a>
+      <span class="xref">Window.ExtendClientAreaChromeHints</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.ondpichanged">Form.OnDpiChanged(DpiChangedEventArgs)</a>
+      <span class="xref">Window.ExtendClientAreaTitleBarHeightHint</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.ongetdpiscaledsize">Form.OnGetDpiScaledSize(int, int, ref Size)</a>
+      <span class="xref">Window.IsExtendedIntoWindowDecorations</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onrighttoleftlayoutchanged">Form.OnRightToLeftLayoutChanged(EventArgs)</a>
+      <span class="xref">Window.WindowDecorationMargin</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onshown">Form.OnShown(EventArgs)</a>
+      <span class="xref">Window.OffScreenMargin</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.ontextchanged">Form.OnTextChanged(EventArgs)</a>
+      <span class="xref">Window.SystemDecorations</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.processcmdkey">Form.ProcessCmdKey(ref Message, Keys)</a>
+      <span class="xref">Window.ShowActivated</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.processdialogkey">Form.ProcessDialogKey(Keys)</a>
+      <span class="xref">Window.ShowInTaskbar</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.processdialogchar">Form.ProcessDialogChar(char)</a>
+      <span class="xref">Window.ClosingBehavior</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.processkeypreview">Form.ProcessKeyPreview(ref Message)</a>
+      <span class="xref">Window.WindowState</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.processtabkey">Form.ProcessTabKey(bool)</a>
+      <span class="xref">Window.CanResize</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.removeownedform">Form.RemoveOwnedForm(Form)</a>
+      <span class="xref">Window.CanMinimize</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.select">Form.Select(bool, bool)</a>
+      <span class="xref">Window.CanMaximize</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.scaleminmaxsize">Form.ScaleMinMaxSize(float, float, bool)</a>
+      <span class="xref">Window.Icon</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.getscaledbounds">Form.GetScaledBounds(Rectangle, SizeF, BoundsSpecified)</a>
+      <span class="xref">Window.WindowStartupLocation</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.scalecontrol">Form.ScaleControl(SizeF, BoundsSpecified)</a>
+      <span class="xref">Window.Position</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.setboundscore">Form.SetBoundsCore(int, int, int, int, BoundsSpecified)</a>
+      <span class="xref">Window.IsDialog</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.setclientsizecore">Form.SetClientSizeCore(int, int)</a>
+      <span class="xref">Window.StyleKeyOverride</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.setdesktopbounds">Form.SetDesktopBounds(int, int, int, int)</a>
+      <span class="xref">Window.Closing</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.setdesktoplocation">Form.SetDesktopLocation(int, int)</a>
+      <span class="xref">WindowBase.IsActiveProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.show">Form.Show(IWin32Window)</a>
+      <span class="xref">WindowBase.OwnerProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.showdialog#system-windows-forms-form-showdialog">Form.ShowDialog()</a>
+      <span class="xref">WindowBase.TopmostProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.showdialog#system-windows-forms-form-showdialog(system-windows-forms-iwin32window)">Form.ShowDialog(IWin32Window)</a>
+      <span class="xref">WindowBase.Activate()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.tostring">Form.ToString()</a>
+      <span class="xref">WindowBase.EnsureInitialized()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.updatedefaultbutton">Form.UpdateDefaultButton()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">WindowBase.OnOpened(EventArgs)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onresizebegin">Form.OnResizeBegin(EventArgs)</a>
+      <span class="xref">WindowBase.OnResized(WindowResizedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onresizeend">Form.OnResizeEnd(EventArgs)</a>
+      <span class="xref">WindowBase.MeasureCore(Size)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.onstylechanged">Form.OnStyleChanged(EventArgs)</a>
+      <span class="xref">WindowBase.ArrangeCore(Rect)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.validatechildren#system-windows-forms-form-validatechildren">Form.ValidateChildren()</a>
+      <span class="xref">WindowBase.IgnoreVisibilityChanges</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.validatechildren#system-windows-forms-form-validatechildren(system-windows-forms-validationconstraints)">Form.ValidateChildren(ValidationConstraints)</a>
+      <span class="xref">WindowBase.IsActive</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.wndproc">Form.WndProc(ref Message)</a>
+      <span class="xref">WindowBase.Screens</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.acceptbutton">Form.AcceptButton</a>
+      <span class="xref">WindowBase.Owner</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.activeform">Form.ActiveForm</a>
+      <span class="xref">WindowBase.Topmost</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.activemdichild">Form.ActiveMdiChild</a>
+      <span class="xref">WindowBase.DesktopScaling</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.allowtransparency">Form.AllowTransparency</a>
+      <span class="xref">WindowBase.Activated</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.autoscroll">Form.AutoScroll</a>
+      <span class="xref">WindowBase.Deactivated</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.autosize">Form.AutoSize</a>
+      <span class="xref">WindowBase.PositionChanged</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.autosizemode">Form.AutoSizeMode</a>
+      <span class="xref">WindowBase.Resized</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.autovalidate">Form.AutoValidate</a>
+      <span class="xref">TopLevel.ClientSizeProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.backcolor">Form.BackColor</a>
+      <span class="xref">TopLevel.FrameSizeProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.formborderstyle">Form.FormBorderStyle</a>
+      <span class="xref">TopLevel.PointerOverElementProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.cancelbutton">Form.CancelButton</a>
+      <span class="xref">TopLevel.TransparencyLevelHintProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.clientsize">Form.ClientSize</a>
+      <span class="xref">TopLevel.ActualTransparencyLevelProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.controlbox">Form.ControlBox</a>
+      <span class="xref">TopLevel.TransparencyBackgroundFallbackProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.createparams">Form.CreateParams</a>
+      <span class="xref">TopLevel.ActualThemeVariantProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.defaultimemode">Form.DefaultImeMode</a>
+      <span class="xref">TopLevel.RequestedThemeVariantProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.defaultsize">Form.DefaultSize</a>
+      <span class="xref">TopLevel.SystemBarColorProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.desktopbounds">Form.DesktopBounds</a>
+      <span class="xref">TopLevel.AutoSafeAreaPaddingProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.desktoplocation">Form.DesktopLocation</a>
+      <span class="xref">TopLevel.BackRequestedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.dialogresult">Form.DialogResult</a>
+      <span class="xref">TopLevel.TryGetPlatformHandle()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.helpbutton">Form.HelpButton</a>
+      <span class="xref">TopLevel.SetSystemBarColor(Control, SolidColorBrush)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.icon">Form.Icon</a>
+      <span class="xref">TopLevel.GetSystemBarColor(Control)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.ismdichild">Form.IsMdiChild</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TopLevel.SetAutoSafeAreaPadding(Control, bool)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.ismdicontainer">Form.IsMdiContainer</a>
+      <span class="xref">TopLevel.GetAutoSafeAreaPadding(Control)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.isrestrictedwindow">Form.IsRestrictedWindow</a>
+      <span class="xref">TopLevel.GetTopLevel(Visual)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.keypreview">Form.KeyPreview</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TopLevel.RequestPlatformInhibition(PlatformInhibitionType, string)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.location">Form.Location</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">TopLevel.RequestAnimationFrame(Action&lt;TimeSpan&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.maximizedbounds">Form.MaximizedBounds</a>
+      <span class="xref">TopLevel.StartRendering()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.maximumsize">Form.MaximumSize</a>
+      <span class="xref">TopLevel.StopRendering()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.mainmenustrip">Form.MainMenuStrip</a>
+      <span class="xref">TopLevel.OnAttachedToVisualTree(VisualTreeAttachmentEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.minimumsize">Form.MinimumSize</a>
+      <span class="xref">TopLevel.OnApplyTemplate(TemplateAppliedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.maximizebox">Form.MaximizeBox</a>
+      <span class="xref">TopLevel.InvalidateMirrorTransform()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.mdichildren">Form.MdiChildren</a>
+      <span class="xref">TopLevel.ClientSize</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.mdichildrenminimizedanchorbottom">Form.MdiChildrenMinimizedAnchorBottom</a>
+      <span class="xref">TopLevel.FrameSize</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.mdiparent">Form.MdiParent</a>
+      <span class="xref">TopLevel.TransparencyLevelHint</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.minimizebox">Form.MinimizeBox</a>
+      <span class="xref">TopLevel.ActualTransparencyLevel</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.modal">Form.Modal</a>
+      <span class="xref">TopLevel.TransparencyBackgroundFallback</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.opacity">Form.Opacity</a>
+      <span class="xref">TopLevel.RequestedThemeVariant</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.ownedforms">Form.OwnedForms</a>
+      <span class="xref">TopLevel.RendererDiagnostics</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.owner">Form.Owner</a>
+      <span class="xref">TopLevel.RenderScaling</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.restorebounds">Form.RestoreBounds</a>
+      <span class="xref">TopLevel.StorageProvider</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.righttoleftlayout">Form.RightToLeftLayout</a>
+      <span class="xref">TopLevel.InsetsManager</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.showintaskbar">Form.ShowInTaskbar</a>
+      <span class="xref">TopLevel.InputPane</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.showicon">Form.ShowIcon</a>
+      <span class="xref">TopLevel.Launcher</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.showwithoutactivation">Form.ShowWithoutActivation</a>
+      <span class="xref">TopLevel.Clipboard</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.size">Form.Size</a>
+      <span class="xref">TopLevel.FocusManager</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.sizegripstyle">Form.SizeGripStyle</a>
+      <span class="xref">TopLevel.PlatformSettings</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.startposition">Form.StartPosition</a>
+      <span class="xref">TopLevel.BypassFlowDirectionPolicies</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.text">Form.Text</a>
+      <span class="xref">TopLevel.Opened</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.toplevel">Form.TopLevel</a>
+      <span class="xref">TopLevel.Closed</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.topmost">Form.TopMost</a>
+      <span class="xref">TopLevel.ScalingChanged</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.transparencykey">Form.TransparencyKey</a>
+      <span class="xref">TopLevel.BackRequested</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.windowstate">Form.WindowState</a>
+      <span class="xref">ContentControl.ContentProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.autosizechanged">Form.AutoSizeChanged</a>
+      <span class="xref">ContentControl.ContentTemplateProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.autovalidatechanged">Form.AutoValidateChanged</a>
+      <span class="xref">ContentControl.HorizontalContentAlignmentProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.helpbuttonclicked">Form.HelpButtonClicked</a>
+      <span class="xref">ContentControl.VerticalContentAlignmentProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.maximizedboundschanged">Form.MaximizedBoundsChanged</a>
+      <span class="xref">ContentControl.RegisterContentPresenter(ContentPresenter)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.maximumsizechanged">Form.MaximumSizeChanged</a>
+      <span class="xref">ContentControl.Content</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.minimumsizechanged">Form.MinimumSizeChanged</a>
+      <span class="xref">ContentControl.ContentTemplate</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.activated">Form.Activated</a>
+      <span class="xref">ContentControl.Presenter</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.deactivate">Form.Deactivate</a>
+      <span class="xref">ContentControl.HorizontalContentAlignment</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.formclosing">Form.FormClosing</a>
+      <span class="xref">ContentControl.VerticalContentAlignment</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.formclosed">Form.FormClosed</a>
+      <span class="xref">TemplatedControl.BackgroundProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.load">Form.Load</a>
+      <span class="xref">TemplatedControl.BackgroundSizingProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.mdichildactivate">Form.MdiChildActivate</a>
+      <span class="xref">TemplatedControl.BorderBrushProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.menucomplete">Form.MenuComplete</a>
+      <span class="xref">TemplatedControl.BorderThicknessProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.menustart">Form.MenuStart</a>
+      <span class="xref">TemplatedControl.CornerRadiusProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.inputlanguagechanged">Form.InputLanguageChanged</a>
+      <span class="xref">TemplatedControl.FontFamilyProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.inputlanguagechanging">Form.InputLanguageChanging</a>
+      <span class="xref">TemplatedControl.FontFeaturesProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.righttoleftlayoutchanged">Form.RightToLeftLayoutChanged</a>
+      <span class="xref">TemplatedControl.FontSizeProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.shown">Form.Shown</a>
+      <span class="xref">TemplatedControl.FontStyleProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.dpichanged">Form.DpiChanged</a>
+      <span class="xref">TemplatedControl.FontWeightProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.resizebegin">Form.ResizeBegin</a>
+      <span class="xref">TemplatedControl.FontStretchProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.form.resizeend">Form.ResizeEnd</a>
+      <span class="xref">TemplatedControl.ForegroundProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.onautovalidatechanged">ContainerControl.OnAutoValidateChanged(EventArgs)</a>
+      <span class="xref">TemplatedControl.PaddingProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.onmove">ContainerControl.OnMove(EventArgs)</a>
+      <span class="xref">TemplatedControl.TemplateProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.onparentchanged">ContainerControl.OnParentChanged(EventArgs)</a>
+      <span class="xref">TemplatedControl.IsTemplateFocusTargetProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.performautoscale">ContainerControl.PerformAutoScale()</a>
+      <span class="xref">TemplatedControl.TemplateAppliedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.rescaleconstantsfordpi">ContainerControl.RescaleConstantsForDpi(int, int)</a>
+      <span class="xref">TemplatedControl.GetIsTemplateFocusTarget(Control)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.validate#system-windows-forms-containercontrol-validate">ContainerControl.Validate()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TemplatedControl.SetIsTemplateFocusTarget(Control, bool)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.validate#system-windows-forms-containercontrol-validate(system-boolean)">ContainerControl.Validate(bool)</a>
+      <span class="xref">TemplatedControl.ApplyTemplate()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.autoscaledimensions">ContainerControl.AutoScaleDimensions</a>
+      <span class="xref">TemplatedControl.GetTemplateFocusTarget()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.autoscalefactor">ContainerControl.AutoScaleFactor</a>
+      <span class="xref">TemplatedControl.OnAttachedToLogicalTree(LogicalTreeAttachmentEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.autoscalemode">ContainerControl.AutoScaleMode</a>
+      <span class="xref">TemplatedControl.OnDetachedFromLogicalTree(LogicalTreeAttachmentEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.bindingcontext">ContainerControl.BindingContext</a>
+      <span class="xref">TemplatedControl.OnTemplateChanged(AvaloniaPropertyChangedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.canenableime">ContainerControl.CanEnableIme</a>
+      <span class="xref">TemplatedControl.Background</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.activecontrol">ContainerControl.ActiveControl</a>
+      <span class="xref">TemplatedControl.BackgroundSizing</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.currentautoscaledimensions">ContainerControl.CurrentAutoScaleDimensions</a>
+      <span class="xref">TemplatedControl.BorderBrush</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol.parentform">ContainerControl.ParentForm</a>
+      <span class="xref">TemplatedControl.BorderThickness</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.scrollstateautoscrolling">ScrollableControl.ScrollStateAutoScrolling</a>
+      <span class="xref">TemplatedControl.CornerRadius</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.scrollstatehscrollvisible">ScrollableControl.ScrollStateHScrollVisible</a>
+      <span class="xref">TemplatedControl.FontFamily</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.scrollstatevscrollvisible">ScrollableControl.ScrollStateVScrollVisible</a>
+      <span class="xref">TemplatedControl.FontFeatures</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.scrollstateuserhasscrolled">ScrollableControl.ScrollStateUserHasScrolled</a>
+      <span class="xref">TemplatedControl.FontSize</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.scrollstatefulldrag">ScrollableControl.ScrollStateFullDrag</a>
+      <span class="xref">TemplatedControl.FontStyle</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.getscrollstate">ScrollableControl.GetScrollState(int)</a>
+      <span class="xref">TemplatedControl.FontWeight</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.onmousewheel">ScrollableControl.OnMouseWheel(MouseEventArgs)</a>
+      <span class="xref">TemplatedControl.FontStretch</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.onrighttoleftchanged">ScrollableControl.OnRightToLeftChanged(EventArgs)</a>
+      <span class="xref">TemplatedControl.Foreground</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.onpaintbackground">ScrollableControl.OnPaintBackground(PaintEventArgs)</a>
+      <span class="xref">TemplatedControl.Padding</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.onpaddingchanged">ScrollableControl.OnPaddingChanged(EventArgs)</a>
+      <span class="xref">TemplatedControl.Template</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.setdisplayrectlocation">ScrollableControl.SetDisplayRectLocation(int, int)</a>
+      <span class="xref">TemplatedControl.TemplateApplied</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.scrollcontrolintoview">ScrollableControl.ScrollControlIntoView(Control)</a>
+      <span class="xref">Control.FocusAdornerProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.scrolltocontrol">ScrollableControl.ScrollToControl(Control)</a>
+      <span class="xref">Control.TagProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.onscroll">ScrollableControl.OnScroll(ScrollEventArgs)</a>
+      <span class="xref">Control.ContextMenuProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.setautoscrollmargin">ScrollableControl.SetAutoScrollMargin(int, int)</a>
+      <span class="xref">Control.ContextFlyoutProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.setscrollstate">ScrollableControl.SetScrollState(int, bool)</a>
+      <span class="xref">Control.RequestBringIntoViewEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.autoscrollmargin">ScrollableControl.AutoScrollMargin</a>
+      <span class="xref">Control.ContextRequestedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.autoscrollposition">ScrollableControl.AutoScrollPosition</a>
+      <span class="xref">Control.LoadedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.autoscrollminsize">ScrollableControl.AutoScrollMinSize</a>
+      <span class="xref">Control.UnloadedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.displayrectangle">ScrollableControl.DisplayRectangle</a>
+      <span class="xref">Control.SizeChangedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.hscroll">ScrollableControl.HScroll</a>
+      <span class="xref">Control.OnLoaded(RoutedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.horizontalscroll">ScrollableControl.HorizontalScroll</a>
+      <span class="xref">Control.OnUnloaded(RoutedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.vscroll">ScrollableControl.VScroll</a>
+      <span class="xref">Control.OnSizeChanged(SizeChangedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.verticalscroll">ScrollableControl.VerticalScroll</a>
+      <span class="xref">Control.OnAttachedToVisualTreeCore(VisualTreeAttachmentEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol.scroll">ScrollableControl.Scroll</a>
+      <span class="xref">Control.OnDetachedFromVisualTreeCore(VisualTreeAttachmentEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.getaccessibilityobjectbyid">Control.GetAccessibilityObjectById(int)</a>
+      <span class="xref">Control.OnGotFocus(GotFocusEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.setautosizemode">Control.SetAutoSizeMode(AutoSizeMode)</a>
+      <span class="xref">Control.OnLostFocus(RoutedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.getautosizemode">Control.GetAutoSizeMode()</a>
+      <span class="xref">Control.OnPointerReleased(PointerReleasedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.getpreferredsize">Control.GetPreferredSize(Size)</a>
+      <span class="xref">Control.OnKeyUp(KeyEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.accessibilitynotifyclients#system-windows-forms-control-accessibilitynotifyclients(system-windows-forms-accessibleevents-system-int32)">Control.AccessibilityNotifyClients(AccessibleEvents, int)</a>
+      <span class="xref">Control.FocusAdorner</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.accessibilitynotifyclients#system-windows-forms-control-accessibilitynotifyclients(system-windows-forms-accessibleevents-system-int32-system-int32)">Control.AccessibilityNotifyClients(AccessibleEvents, int, int)</a>
+      <span class="xref">Control.DataTemplates</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.begininvoke#system-windows-forms-control-begininvoke(system-delegate)">Control.BeginInvoke(Delegate)</a>
+      <span class="xref">Control.ContextMenu</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.begininvoke#system-windows-forms-control-begininvoke(system-action)">Control.BeginInvoke(Action)</a>
+      <span class="xref">Control.ContextFlyout</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.begininvoke#system-windows-forms-control-begininvoke(system-delegate-system-object())">Control.BeginInvoke(Delegate, params object[])</a>
+      <span class="xref">Control.IsLoaded</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.bringtofront">Control.BringToFront()</a>
+      <span class="xref">Control.Tag</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.contains">Control.Contains(Control)</a>
+      <span class="xref">Control.ContextRequested</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.creategraphics">Control.CreateGraphics()</a>
+      <span class="xref">Control.Loaded</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.createcontrol">Control.CreateControl()</a>
+      <span class="xref">Control.Unloaded</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.destroyhandle">Control.DestroyHandle()</a>
+      <span class="xref">Control.SizeChanged</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.dodragdrop#system-windows-forms-control-dodragdrop(system-object-system-windows-forms-dragdropeffects)">Control.DoDragDrop(object, DragDropEffects)</a>
+      <span class="xref">InputElement.FocusableProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.dodragdrop#system-windows-forms-control-dodragdrop(system-object-system-windows-forms-dragdropeffects-system-drawing-bitmap-system-drawing-point-system-boolean)">Control.DoDragDrop(object, DragDropEffects, Bitmap, Point, bool)</a>
+      <span class="xref">InputElement.IsEnabledProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.drawtobitmap">Control.DrawToBitmap(Bitmap, Rectangle)</a>
+      <span class="xref">InputElement.IsEffectivelyEnabledProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.endinvoke">Control.EndInvoke(IAsyncResult)</a>
+      <span class="xref">InputElement.CursorProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.findform">Control.FindForm()</a>
+      <span class="xref">InputElement.IsKeyboardFocusWithinProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.gettoplevel">Control.GetTopLevel()</a>
+      <span class="xref">InputElement.IsFocusedProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.raisekeyevent">Control.RaiseKeyEvent(object, KeyEventArgs)</a>
+      <span class="xref">InputElement.IsHitTestVisibleProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.raisemouseevent">Control.RaiseMouseEvent(object, MouseEventArgs)</a>
+      <span class="xref">InputElement.IsPointerOverProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.focus">Control.Focus()</a>
+      <span class="xref">InputElement.IsTabStopProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.fromchildhandle">Control.FromChildHandle(nint)</a>
+      <span class="xref">InputElement.GotFocusEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.fromhandle">Control.FromHandle(nint)</a>
+      <span class="xref">InputElement.LostFocusEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.getchildatpoint#system-windows-forms-control-getchildatpoint(system-drawing-point-system-windows-forms-getchildatpointskip)">Control.GetChildAtPoint(Point, GetChildAtPointSkip)</a>
+      <span class="xref">InputElement.KeyDownEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.getchildatpoint#system-windows-forms-control-getchildatpoint(system-drawing-point)">Control.GetChildAtPoint(Point)</a>
+      <span class="xref">InputElement.KeyUpEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.getcontainercontrol">Control.GetContainerControl()</a>
+      <span class="xref">InputElement.TabIndexProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.getnextcontrol">Control.GetNextControl(Control, bool)</a>
+      <span class="xref">InputElement.TextInputEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.getstyle">Control.GetStyle(ControlStyles)</a>
+      <span class="xref">InputElement.TextInputMethodClientRequestedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.hide">Control.Hide()</a>
+      <span class="xref">InputElement.PointerEnteredEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.initlayout">Control.InitLayout()</a>
+      <span class="xref">InputElement.PointerExitedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invalidate#system-windows-forms-control-invalidate(system-drawing-region)">Control.Invalidate(Region)</a>
+      <span class="xref">InputElement.PointerMovedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invalidate#system-windows-forms-control-invalidate(system-drawing-region-system-boolean)">Control.Invalidate(Region, bool)</a>
+      <span class="xref">InputElement.PointerPressedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invalidate#system-windows-forms-control-invalidate">Control.Invalidate()</a>
+      <span class="xref">InputElement.PointerReleasedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invalidate#system-windows-forms-control-invalidate(system-boolean)">Control.Invalidate(bool)</a>
+      <span class="xref">InputElement.PointerCaptureLostEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invalidate#system-windows-forms-control-invalidate(system-drawing-rectangle)">Control.Invalidate(Rectangle)</a>
+      <span class="xref">InputElement.PointerWheelChangedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invalidate#system-windows-forms-control-invalidate(system-drawing-rectangle-system-boolean)">Control.Invalidate(Rectangle, bool)</a>
+      <span class="xref">InputElement.TappedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invoke#system-windows-forms-control-invoke(system-action)">Control.Invoke(Action)</a>
+      <span class="xref">InputElement.HoldingEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invoke#system-windows-forms-control-invoke(system-delegate)">Control.Invoke(Delegate)</a>
+      <span class="xref">InputElement.DoubleTappedEvent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invoke#system-windows-forms-control-invoke(system-delegate-system-object())">Control.Invoke(Delegate, params object[])</a>
+      <span class="xref">InputElement.Focus(NavigationMethod, KeyModifiers)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invoke#system-windows-forms-control-invoke-1(system-func((-0)))">Control.Invoke&lt;T&gt;(Func&lt;T&gt;)</a>
+      <span class="xref">InputElement.OnAccessKey(RoutedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invokepaint">Control.InvokePaint(Control, PaintEventArgs)</a>
+      <span class="xref">InputElement.OnKeyDown(KeyEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invokepaintbackground">Control.InvokePaintBackground(Control, PaintEventArgs)</a>
+      <span class="xref">InputElement.OnTextInput(TextInputEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.iskeylocked">Control.IsKeyLocked(Keys)</a>
+      <span class="xref">InputElement.OnPointerEntered(PointerEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.isinputchar">Control.IsInputChar(char)</a>
+      <span class="xref">InputElement.OnPointerExited(PointerEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.isinputkey">Control.IsInputKey(Keys)</a>
+      <span class="xref">InputElement.OnPointerMoved(PointerEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ismnemonic">Control.IsMnemonic(char, string)</a>
+      <span class="xref">InputElement.OnPointerPressed(PointerPressedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.logicaltodeviceunits#system-windows-forms-control-logicaltodeviceunits(system-int32)">Control.LogicalToDeviceUnits(int)</a>
+      <span class="xref">InputElement.OnPointerCaptureLost(PointerCaptureLostEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.logicaltodeviceunits#system-windows-forms-control-logicaltodeviceunits(system-drawing-size)">Control.LogicalToDeviceUnits(Size)</a>
+      <span class="xref">InputElement.OnPointerWheelChanged(PointerWheelEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.scalebitmaplogicaltodevice">Control.ScaleBitmapLogicalToDevice(ref Bitmap)</a>
+      <span class="xref">InputElement.UpdateIsEffectivelyEnabled()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.notifyinvalidate">Control.NotifyInvalidate(Rectangle)</a>
+      <span class="xref">InputElement.Focusable</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invokeonclick">Control.InvokeOnClick(Control, EventArgs)</a>
+      <span class="xref">InputElement.IsEnabled</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onautosizechanged">Control.OnAutoSizeChanged(EventArgs)</a>
+      <span class="xref">InputElement.Cursor</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onbackcolorchanged">Control.OnBackColorChanged(EventArgs)</a>
+      <span class="xref">InputElement.IsKeyboardFocusWithin</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onbindingcontextchanged">Control.OnBindingContextChanged(EventArgs)</a>
+      <span class="xref">InputElement.IsFocused</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.oncausesvalidationchanged">Control.OnCausesValidationChanged(EventArgs)</a>
+      <span class="xref">InputElement.IsHitTestVisible</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.oncontextmenustripchanged">Control.OnContextMenuStripChanged(EventArgs)</a>
+      <span class="xref">InputElement.IsPointerOver</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.oncursorchanged">Control.OnCursorChanged(EventArgs)</a>
+      <span class="xref">InputElement.IsTabStop</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ondatacontextchanged">Control.OnDataContextChanged(EventArgs)</a>
+      <span class="xref">InputElement.IsEffectivelyEnabled</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ondockchanged">Control.OnDockChanged(EventArgs)</a>
+      <span class="xref">InputElement.TabIndex</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onforecolorchanged">Control.OnForeColorChanged(EventArgs)</a>
+      <span class="xref">InputElement.KeyBindings</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onnotifymessage">Control.OnNotifyMessage(Message)</a>
+      <span class="xref">InputElement.IsEnabledCore</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onparentbackcolorchanged">Control.OnParentBackColorChanged(EventArgs)</a>
+      <span class="xref">InputElement.GestureRecognizers</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onparentbackgroundimagechanged">Control.OnParentBackgroundImageChanged(EventArgs)</a>
+      <span class="xref">InputElement.GotFocus</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onparentbindingcontextchanged">Control.OnParentBindingContextChanged(EventArgs)</a>
+      <span class="xref">InputElement.LostFocus</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onparentcursorchanged">Control.OnParentCursorChanged(EventArgs)</a>
+      <span class="xref">InputElement.KeyDown</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onparentdatacontextchanged">Control.OnParentDataContextChanged(EventArgs)</a>
+      <span class="xref">InputElement.KeyUp</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onparentenabledchanged">Control.OnParentEnabledChanged(EventArgs)</a>
+      <span class="xref">InputElement.TextInput</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onparentfontchanged">Control.OnParentFontChanged(EventArgs)</a>
+      <span class="xref">InputElement.TextInputMethodClientRequested</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onparentforecolorchanged">Control.OnParentForeColorChanged(EventArgs)</a>
+      <span class="xref">InputElement.PointerEntered</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onparentrighttoleftchanged">Control.OnParentRightToLeftChanged(EventArgs)</a>
+      <span class="xref">InputElement.PointerExited</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onparentvisiblechanged">Control.OnParentVisibleChanged(EventArgs)</a>
+      <span class="xref">InputElement.PointerMoved</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onprint">Control.OnPrint(PaintEventArgs)</a>
+      <span class="xref">InputElement.PointerPressed</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ontabindexchanged">Control.OnTabIndexChanged(EventArgs)</a>
+      <span class="xref">InputElement.PointerReleased</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ontabstopchanged">Control.OnTabStopChanged(EventArgs)</a>
+      <span class="xref">InputElement.PointerCaptureLost</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onclick">Control.OnClick(EventArgs)</a>
+      <span class="xref">InputElement.PointerWheelChanged</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onclientsizechanged">Control.OnClientSizeChanged(EventArgs)</a>
+      <span class="xref">InputElement.Tapped</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.oncontroladded">Control.OnControlAdded(ControlEventArgs)</a>
+      <span class="xref">InputElement.Holding</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.oncontrolremoved">Control.OnControlRemoved(ControlEventArgs)</a>
+      <span class="xref">InputElement.DoubleTapped</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onlocationchanged">Control.OnLocationChanged(EventArgs)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.delegate">Interactive.AddHandler(RoutedEvent, Delegate, RoutingStrategies, bool)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ondoubleclick">Control.OnDoubleClick(EventArgs)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">Interactive.AddHandler&lt;TEventArgs&gt;(RoutedEvent&lt;TEventArgs&gt;, EventHandler&lt;TEventArgs&gt;, RoutingStrategies, bool)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ondragenter">Control.OnDragEnter(DragEventArgs)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.delegate">Interactive.RemoveHandler(RoutedEvent, Delegate)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ondragover">Control.OnDragOver(DragEventArgs)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">Interactive.RemoveHandler&lt;TEventArgs&gt;(RoutedEvent&lt;TEventArgs&gt;, EventHandler&lt;TEventArgs&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ondragleave">Control.OnDragLeave(EventArgs)</a>
+      <span class="xref">Interactive.RaiseEvent(RoutedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ondragdrop">Control.OnDragDrop(DragEventArgs)</a>
+      <span class="xref">Interactive.BuildEventRoute(RoutedEvent)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ongivefeedback">Control.OnGiveFeedback(GiveFeedbackEventArgs)</a>
+      <span class="xref">Layoutable.DesiredSizeProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invokegotfocus">Control.InvokeGotFocus(Control, EventArgs)</a>
+      <span class="xref">Layoutable.WidthProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onhelprequested">Control.OnHelpRequested(HelpEventArgs)</a>
+      <span class="xref">Layoutable.HeightProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.oninvalidated">Control.OnInvalidated(InvalidateEventArgs)</a>
+      <span class="xref">Layoutable.MinWidthProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onkeydown">Control.OnKeyDown(KeyEventArgs)</a>
+      <span class="xref">Layoutable.MaxWidthProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onkeypress">Control.OnKeyPress(KeyPressEventArgs)</a>
+      <span class="xref">Layoutable.MinHeightProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onkeyup">Control.OnKeyUp(KeyEventArgs)</a>
+      <span class="xref">Layoutable.MaxHeightProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onleave">Control.OnLeave(EventArgs)</a>
+      <span class="xref">Layoutable.MarginProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invokelostfocus">Control.InvokeLostFocus(Control, EventArgs)</a>
+      <span class="xref">Layoutable.HorizontalAlignmentProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onlostfocus">Control.OnLostFocus(EventArgs)</a>
+      <span class="xref">Layoutable.VerticalAlignmentProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onmarginchanged">Control.OnMarginChanged(EventArgs)</a>
+      <span class="xref">Layoutable.UseLayoutRoundingProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onmousedoubleclick">Control.OnMouseDoubleClick(MouseEventArgs)</a>
+      <span class="xref">Layoutable.UpdateLayout()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onmouseclick">Control.OnMouseClick(MouseEventArgs)</a>
+      <span class="xref">Layoutable.Measure(Size)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onmousecapturechanged">Control.OnMouseCaptureChanged(EventArgs)</a>
+      <span class="xref">Layoutable.Arrange(Rect)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onmousedown">Control.OnMouseDown(MouseEventArgs)</a>
+      <span class="xref">Layoutable.InvalidateMeasure()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onmouseenter">Control.OnMouseEnter(EventArgs)</a>
+      <span class="xref">Layoutable.InvalidateArrange()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onmouseleave">Control.OnMouseLeave(EventArgs)</a>
+      <span class="xref">Layoutable.AffectsMeasure&lt;T&gt;(params AvaloniaProperty[])</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ondpichangedbeforeparent">Control.OnDpiChangedBeforeParent(EventArgs)</a>
+      <span class="xref">Layoutable.AffectsArrange&lt;T&gt;(params AvaloniaProperty[])</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ondpichangedafterparent">Control.OnDpiChangedAfterParent(EventArgs)</a>
+      <span class="xref">Layoutable.ArrangeOverride(Size)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onmousehover">Control.OnMouseHover(EventArgs)</a>
+      <span class="xref">Layoutable.OnMeasureInvalidated()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onmousemove">Control.OnMouseMove(MouseEventArgs)</a>
+      <span class="xref">Layoutable.OnVisualParentChanged(Visual, Visual)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onmouseup">Control.OnMouseUp(MouseEventArgs)</a>
+      <span class="xref">Layoutable.Width</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onquerycontinuedrag">Control.OnQueryContinueDrag(QueryContinueDragEventArgs)</a>
+      <span class="xref">Layoutable.Height</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onregionchanged">Control.OnRegionChanged(EventArgs)</a>
+      <span class="xref">Layoutable.MinWidth</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onpreviewkeydown">Control.OnPreviewKeyDown(PreviewKeyDownEventArgs)</a>
+      <span class="xref">Layoutable.MaxWidth</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onsizechanged">Control.OnSizeChanged(EventArgs)</a>
+      <span class="xref">Layoutable.MinHeight</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onchangeuicues">Control.OnChangeUICues(UICuesEventArgs)</a>
+      <span class="xref">Layoutable.MaxHeight</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onsystemcolorschanged">Control.OnSystemColorsChanged(EventArgs)</a>
+      <span class="xref">Layoutable.Margin</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onvalidating">Control.OnValidating(CancelEventArgs)</a>
+      <span class="xref">Layoutable.HorizontalAlignment</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onvalidated">Control.OnValidated(EventArgs)</a>
+      <span class="xref">Layoutable.VerticalAlignment</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.performlayout#system-windows-forms-control-performlayout">Control.PerformLayout()</a>
+      <span class="xref">Layoutable.DesiredSize</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.performlayout#system-windows-forms-control-performlayout(system-windows-forms-control-system-string)">Control.PerformLayout(Control, string)</a>
+      <span class="xref">Layoutable.IsMeasureValid</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.pointtoclient">Control.PointToClient(Point)</a>
+      <span class="xref">Layoutable.IsArrangeValid</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.pointtoscreen">Control.PointToScreen(Point)</a>
+      <span class="xref">Layoutable.UseLayoutRounding</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.preprocessmessage">Control.PreProcessMessage(ref Message)</a>
+      <span class="xref">Layoutable.EffectiveViewportChanged</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.preprocesscontrolmessage">Control.PreProcessControlMessage(ref Message)</a>
+      <span class="xref">Layoutable.LayoutUpdated</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.processkeyeventargs">Control.ProcessKeyEventArgs(ref Message)</a>
+      <span class="xref">Visual.BoundsProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.processkeymessage">Control.ProcessKeyMessage(ref Message)</a>
+      <span class="xref">Visual.ClipToBoundsProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.raisedragevent">Control.RaiseDragEvent(object, DragEventArgs)</a>
+      <span class="xref">Visual.ClipProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.raisepaintevent">Control.RaisePaintEvent(object, PaintEventArgs)</a>
+      <span class="xref">Visual.IsVisibleProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.recreatehandle">Control.RecreateHandle()</a>
+      <span class="xref">Visual.OpacityProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.rectangletoclient">Control.RectangleToClient(Rectangle)</a>
+      <span class="xref">Visual.OpacityMaskProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.rectangletoscreen">Control.RectangleToScreen(Rectangle)</a>
+      <span class="xref">Visual.EffectProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.reflectmessage">Control.ReflectMessage(nint, ref Message)</a>
+      <span class="xref">Visual.HasMirrorTransformProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.refresh">Control.Refresh()</a>
+      <span class="xref">Visual.RenderTransformProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.resetmouseeventargs">Control.ResetMouseEventArgs()</a>
+      <span class="xref">Visual.RenderTransformOriginProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.resettext">Control.ResetText()</a>
+      <span class="xref">Visual.FlowDirectionProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.resumelayout#system-windows-forms-control-resumelayout">Control.ResumeLayout()</a>
+      <span class="xref">Visual.VisualParentProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.resumelayout#system-windows-forms-control-resumelayout(system-boolean)">Control.ResumeLayout(bool)</a>
+      <span class="xref">Visual.ZIndexProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.scale#system-windows-forms-control-scale(system-drawing-sizef)">Control.Scale(SizeF)</a>
+      <span class="xref">Visual.GetFlowDirection(Visual)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.select#system-windows-forms-control-select">Control.Select()</a>
+      <span class="xref">Visual.SetFlowDirection(Visual, FlowDirection)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.selectnextcontrol">Control.SelectNextControl(Control, bool, bool, bool, bool)</a>
+      <span class="xref">Visual.InvalidateVisual()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.sendtoback">Control.SendToBack()</a>
+      <span class="xref">Visual.Render(DrawingContext)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.setbounds#system-windows-forms-control-setbounds(system-int32-system-int32-system-int32-system-int32)">Control.SetBounds(int, int, int, int)</a>
+      <span class="xref">Visual.AffectsRender&lt;T&gt;(params AvaloniaProperty[])</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.setbounds#system-windows-forms-control-setbounds(system-int32-system-int32-system-int32-system-int32-system-windows-forms-boundsspecified)">Control.SetBounds(int, int, int, int, BoundsSpecified)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Visual.LogicalChildrenCollectionChanged(object, NotifyCollectionChangedEventArgs)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.sizefromclientsize">Control.SizeFromClientSize(Size)</a>
+      <span class="xref">Visual.OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.setstyle">Control.SetStyle(ControlStyles, bool)</a>
+      <span class="xref">Visual.Bounds</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.settoplevel">Control.SetTopLevel(bool)</a>
+      <span class="xref">Visual.ClipToBounds</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.rtltranslatealignment#system-windows-forms-control-rtltranslatealignment(system-windows-forms-horizontalalignment)">Control.RtlTranslateAlignment(HorizontalAlignment)</a>
+      <span class="xref">Visual.Clip</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.rtltranslatealignment#system-windows-forms-control-rtltranslatealignment(system-windows-forms-leftrightalignment)">Control.RtlTranslateAlignment(LeftRightAlignment)</a>
+      <span class="xref">Visual.IsEffectivelyVisible</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.rtltranslatealignment#system-windows-forms-control-rtltranslatealignment(system-drawing-contentalignment)">Control.RtlTranslateAlignment(ContentAlignment)</a>
+      <span class="xref">Visual.IsVisible</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.rtltranslatehorizontal">Control.RtlTranslateHorizontal(HorizontalAlignment)</a>
+      <span class="xref">Visual.Opacity</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.rtltranslateleftright">Control.RtlTranslateLeftRight(LeftRightAlignment)</a>
+      <span class="xref">Visual.OpacityMask</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.rtltranslatecontent">Control.RtlTranslateContent(ContentAlignment)</a>
+      <span class="xref">Visual.Effect</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.show">Control.Show()</a>
+      <span class="xref">Visual.HasMirrorTransform</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.suspendlayout">Control.SuspendLayout()</a>
+      <span class="xref">Visual.RenderTransform</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.update">Control.Update()</a>
+      <span class="xref">Visual.RenderTransformOrigin</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.updatebounds#system-windows-forms-control-updatebounds">Control.UpdateBounds()</a>
+      <span class="xref">Visual.FlowDirection</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.updatebounds#system-windows-forms-control-updatebounds(system-int32-system-int32-system-int32-system-int32)">Control.UpdateBounds(int, int, int, int)</a>
+      <span class="xref">Visual.ZIndex</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.updatebounds#system-windows-forms-control-updatebounds(system-int32-system-int32-system-int32-system-int32-system-int32-system-int32)">Control.UpdateBounds(int, int, int, int, int, int)</a>
+      <span class="xref">Visual.VisualChildren</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.updatezorder">Control.UpdateZOrder()</a>
+      <span class="xref">Visual.VisualRoot</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.updatestyles">Control.UpdateStyles()</a>
+      <span class="xref">Visual.AttachedToVisualTree</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.onimemodechanged">Control.OnImeModeChanged(EventArgs)</a>
+      <span class="xref">Visual.DetachedFromVisualTree</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.accessibilityobject">Control.AccessibilityObject</a>
+      <span class="xref">StyledElement.DataContextProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.accessibledefaultactiondescription">Control.AccessibleDefaultActionDescription</a>
+      <span class="xref">StyledElement.NameProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.accessibledescription">Control.AccessibleDescription</a>
+      <span class="xref">StyledElement.ParentProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.accessiblename">Control.AccessibleName</a>
+      <span class="xref">StyledElement.TemplatedParentProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.accessiblerole">Control.AccessibleRole</a>
+      <span class="xref">StyledElement.ThemeProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.allowdrop">Control.AllowDrop</a>
+      <span class="xref">StyledElement.BeginInit()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.anchor">Control.Anchor</a>
+      <span class="xref">StyledElement.EndInit()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.autoscrolloffset">Control.AutoScrollOffset</a>
+      <span class="xref">StyledElement.ApplyStyling()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.layoutengine">Control.LayoutEngine</a>
+      <span class="xref">StyledElement.InitializeIfNeeded()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.datacontext">Control.DataContext</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">StyledElement.TryGetResource(object, ThemeVariant, out object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.backgroundimage">Control.BackgroundImage</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">StyledElement.OnDataContextChanged(EventArgs)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.backgroundimagelayout">Control.BackgroundImageLayout</a>
+      <span class="xref">StyledElement.OnDataContextBeginUpdate()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.bottom">Control.Bottom</a>
+      <span class="xref">StyledElement.OnDataContextEndUpdate()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.bounds">Control.Bounds</a>
+      <span class="xref">StyledElement.OnInitialized()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.canfocus">Control.CanFocus</a>
+      <span class="xref">StyledElement.Name</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.canraiseevents">Control.CanRaiseEvents</a>
+      <span class="xref">StyledElement.Classes</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.canselect">Control.CanSelect</a>
+      <span class="xref">StyledElement.DataContext</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.capture">Control.Capture</a>
+      <span class="xref">StyledElement.IsInitialized</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.causesvalidation">Control.CausesValidation</a>
+      <span class="xref">StyledElement.Styles</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.checkforillegalcrossthreadcalls">Control.CheckForIllegalCrossThreadCalls</a>
+      <span class="xref">StyledElement.StyleKey</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.clientrectangle">Control.ClientRectangle</a>
+      <span class="xref">StyledElement.Resources</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.companyname">Control.CompanyName</a>
+      <span class="xref">StyledElement.TemplatedParent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.containsfocus">Control.ContainsFocus</a>
+      <span class="xref">StyledElement.Theme</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.contextmenustrip">Control.ContextMenuStrip</a>
+      <span class="xref">StyledElement.LogicalChildren</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.controls">Control.Controls</a>
+      <span class="xref">StyledElement.PseudoClasses</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.created">Control.Created</a>
+      <span class="xref">StyledElement.Parent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.cursor">Control.Cursor</a>
+      <span class="xref">StyledElement.ActualThemeVariant</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.databindings">Control.DataBindings</a>
+      <span class="xref">StyledElement.AttachedToLogicalTree</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.defaultbackcolor">Control.DefaultBackColor</a>
+      <span class="xref">StyledElement.DetachedFromLogicalTree</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.defaultcursor">Control.DefaultCursor</a>
+      <span class="xref">StyledElement.DataContextChanged</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.defaultfont">Control.DefaultFont</a>
+      <span class="xref">StyledElement.Initialized</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.defaultforecolor">Control.DefaultForeColor</a>
+      <span class="xref">StyledElement.ResourcesChanged</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.defaultmargin">Control.DefaultMargin</a>
+      <span class="xref">StyledElement.ActualThemeVariantChanged</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.defaultmaximumsize">Control.DefaultMaximumSize</a>
+      <span class="xref">Animatable.TransitionsProperty</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.defaultminimumsize">Control.DefaultMinimumSize</a>
+      <span class="xref">Animatable.OnPropertyChangedCore(AvaloniaPropertyChangedEventArgs)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.defaultpadding">Control.DefaultPadding</a>
+      <span class="xref">Animatable.Transitions</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.devicedpi">Control.DeviceDpi</a>
+      <span class="xref">AvaloniaObject.CheckAccess()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.isdisposed">Control.IsDisposed</a>
+      <span class="xref">AvaloniaObject.VerifyAccess()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.disposing">Control.Disposing</a>
+      <span class="xref">AvaloniaObject.ClearValue(AvaloniaProperty)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.dock">Control.Dock</a>
+      <span class="xref">AvaloniaObject.ClearValue&lt;T&gt;(AvaloniaProperty&lt;T&gt;)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.doublebuffered">Control.DoubleBuffered</a>
+      <span class="xref">AvaloniaObject.ClearValue&lt;T&gt;(StyledProperty&lt;T&gt;)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.enabled">Control.Enabled</a>
+      <span class="xref">AvaloniaObject.ClearValue&lt;T&gt;(DirectPropertyBase&lt;T&gt;)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.focused">Control.Focused</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">AvaloniaObject.Equals(object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.font">Control.Font</a>
+      <span class="xref">AvaloniaObject.GetHashCode()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.fontheight">Control.FontHeight</a>
+      <span class="xref">AvaloniaObject.GetValue(AvaloniaProperty)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.forecolor">Control.ForeColor</a>
+      <span class="xref">AvaloniaObject.GetValue&lt;T&gt;(StyledProperty&lt;T&gt;)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.handle">Control.Handle</a>
+      <span class="xref">AvaloniaObject.GetValue&lt;T&gt;(DirectPropertyBase&lt;T&gt;)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.haschildren">Control.HasChildren</a>
+      <span class="xref">AvaloniaObject.GetBaseValue&lt;T&gt;(StyledProperty&lt;T&gt;)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.height">Control.Height</a>
+      <span class="xref">AvaloniaObject.IsAnimating(AvaloniaProperty)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ishandlecreated">Control.IsHandleCreated</a>
+      <span class="xref">AvaloniaObject.IsSet(AvaloniaProperty)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invokerequired">Control.InvokeRequired</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">AvaloniaObject.SetValue(AvaloniaProperty, object, BindingPriority)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.isaccessible">Control.IsAccessible</a>
+      <span class="xref">AvaloniaObject.SetValue&lt;T&gt;(StyledProperty&lt;T&gt;, T, BindingPriority)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.isancestorsiteindesignmode">Control.IsAncestorSiteInDesignMode</a>
+      <span class="xref">AvaloniaObject.SetValue&lt;T&gt;(DirectPropertyBase&lt;T&gt;, T)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.ismirrored">Control.IsMirrored</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">AvaloniaObject.SetCurrentValue(AvaloniaProperty, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.left">Control.Left</a>
+      <span class="xref">AvaloniaObject.SetCurrentValue&lt;T&gt;(StyledProperty&lt;T&gt;, T)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.margin">Control.Margin</a>
+      <span class="xref">AvaloniaObject.Bind(AvaloniaProperty, IBinding)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.modifierkeys">Control.ModifierKeys</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind(AvaloniaProperty, IObservable&lt;object&gt;, BindingPriority)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.mousebuttons">Control.MouseButtons</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind&lt;T&gt;(StyledProperty&lt;T&gt;, IObservable&lt;object&gt;, BindingPriority)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.mouseposition">Control.MousePosition</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind&lt;T&gt;(StyledProperty&lt;T&gt;, IObservable&lt;T&gt;, BindingPriority)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.name">Control.Name</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind&lt;T&gt;(StyledProperty&lt;T&gt;, IObservable&lt;BindingValue&lt;T&gt;&gt;, BindingPriority)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.parent">Control.Parent</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind&lt;T&gt;(DirectPropertyBase&lt;T&gt;, IObservable&lt;object&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.productname">Control.ProductName</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind&lt;T&gt;(DirectPropertyBase&lt;T&gt;, IObservable&lt;T&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.productversion">Control.ProductVersion</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind&lt;T&gt;(DirectPropertyBase&lt;T&gt;, IObservable&lt;BindingValue&lt;T&gt;&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.recreatinghandle">Control.RecreatingHandle</a>
+      <span class="xref">AvaloniaObject.CoerceValue(AvaloniaProperty)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.region">Control.Region</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">AvaloniaObject.UpdateDataValidation(AvaloniaProperty, BindingValueType, Exception)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.renderrighttoleft">Control.RenderRightToLeft</a>
+      <span class="xref">AvaloniaObject.RaisePropertyChanged&lt;T&gt;(DirectPropertyBase&lt;T&gt;, T, T)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.resizeredraw">Control.ResizeRedraw</a>
+      <span class="xref">AvaloniaObject.SetAndRaise&lt;T&gt;(DirectPropertyBase&lt;T&gt;, ref T, T)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.right">Control.Right</a>
+      <span class="xref">AvaloniaObject.InheritanceParent</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.righttoleft">Control.RightToLeft</a>
+      <span class="xref">AvaloniaObject.this[AvaloniaProperty]</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.scalechildren">Control.ScaleChildren</a>
+      <span class="xref">AvaloniaObject.this[IndexerDescriptor]</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.site">Control.Site</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.tabindex">Control.TabIndex</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.tabstop">Control.TabStop</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.tag">Control.Tag</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.top">Control.Top</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.toplevelcontrol">Control.TopLevelControl</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.showkeyboardcues">Control.ShowKeyboardCues</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.showfocuscues">Control.ShowFocusCues</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.usewaitcursor">Control.UseWaitCursor</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.visible">Control.Visible</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.width">Control.Width</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.preferredsize">Control.PreferredSize</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.padding">Control.Padding</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.imemode">Control.ImeMode</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.imemodebase">Control.ImeModeBase</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.propagatingimemode">Control.PropagatingImeMode</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.backcolorchanged">Control.BackColorChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.backgroundimagechanged">Control.BackgroundImageChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.backgroundimagelayoutchanged">Control.BackgroundImageLayoutChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.bindingcontextchanged">Control.BindingContextChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.causesvalidationchanged">Control.CausesValidationChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.clientsizechanged">Control.ClientSizeChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.contextmenustripchanged">Control.ContextMenuStripChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.cursorchanged">Control.CursorChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.dockchanged">Control.DockChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.enabledchanged">Control.EnabledChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.fontchanged">Control.FontChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.forecolorchanged">Control.ForeColorChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.locationchanged">Control.LocationChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.marginchanged">Control.MarginChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.regionchanged">Control.RegionChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.righttoleftchanged">Control.RightToLeftChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.sizechanged">Control.SizeChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.tabindexchanged">Control.TabIndexChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.tabstopchanged">Control.TabStopChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.textchanged">Control.TextChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.visiblechanged">Control.VisibleChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.click">Control.Click</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.controladded">Control.ControlAdded</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.controlremoved">Control.ControlRemoved</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.datacontextchanged">Control.DataContextChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.dragdrop">Control.DragDrop</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.dragenter">Control.DragEnter</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.dragover">Control.DragOver</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.dragleave">Control.DragLeave</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.givefeedback">Control.GiveFeedback</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.handlecreated">Control.HandleCreated</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.handledestroyed">Control.HandleDestroyed</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.helprequested">Control.HelpRequested</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.invalidated">Control.Invalidated</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.paddingchanged">Control.PaddingChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.paint">Control.Paint</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.querycontinuedrag">Control.QueryContinueDrag</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.queryaccessibilityhelp">Control.QueryAccessibilityHelp</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.doubleclick">Control.DoubleClick</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.enter">Control.Enter</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.gotfocus">Control.GotFocus</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.keydown">Control.KeyDown</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.keypress">Control.KeyPress</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.keyup">Control.KeyUp</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.layout">Control.Layout</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.leave">Control.Leave</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.lostfocus">Control.LostFocus</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.mouseclick">Control.MouseClick</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.mousedoubleclick">Control.MouseDoubleClick</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.mousecapturechanged">Control.MouseCaptureChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.mousedown">Control.MouseDown</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.mouseenter">Control.MouseEnter</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.mouseleave">Control.MouseLeave</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.dpichangedbeforeparent">Control.DpiChangedBeforeParent</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.dpichangedafterparent">Control.DpiChangedAfterParent</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.mousehover">Control.MouseHover</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.mousemove">Control.MouseMove</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.mouseup">Control.MouseUp</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.mousewheel">Control.MouseWheel</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.move">Control.Move</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.previewkeydown">Control.PreviewKeyDown</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.resize">Control.Resize</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.changeuicues">Control.ChangeUICues</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.stylechanged">Control.StyleChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.systemcolorschanged">Control.SystemColorsChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.validating">Control.Validating</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.validated">Control.Validated</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.parentchanged">Control.ParentChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.control.imemodechanged">Control.ImeModeChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.dispose#system-componentmodel-component-dispose">Component.Dispose()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.getservice">Component.GetService(Type)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.container">Component.Container</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.designmode">Component.DesignMode</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.events">Component.Events</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.disposed">Component.Disposed</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice">MarshalByRefObject.GetLifetimeService()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice">MarshalByRefObject.InitializeLifetimeService()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone">MarshalByRefObject.MemberwiseClone(bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+      <span class="xref">AvaloniaObject.PropertyChanged</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
@@ -1684,16 +1420,14 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
 
 
-  <h2 id="BOOSE_Interpreter_MainWindow_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This form provides a visual interface for editing and executing BOOSE programs.
-It includes a text editor for program code and a canvas area for displaying graphical output.
-Users can load BOOSE programs from files, run them, and view debug output.</p>
-</div>
 
 
   <h2 class="section" id="constructors">Constructors
@@ -1704,11 +1438,10 @@ Users can load BOOSE programs from files, run them, and view debug output.</p>
 
   <h3 id="BOOSE_Interpreter_MainWindow__ctor" data-uid="BOOSE.Interpreter.MainWindow.#ctor">
   MainWindow()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/MainWindow.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="BOOSE.Interpreter.MainWindow.html">MainWindow</a> class.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1723,10 +1456,165 @@ Users can load BOOSE programs from files, run them, and view debug output.</p>
 
 
 
-  <h4 class="section" id="BOOSE_Interpreter_MainWindow__ctor_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This constructor sets up the form components and initializes the drawing canvas.
-It also registers event handlers for canvas painting and resizing.</p>
-</div>
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="BOOSE_Interpreter_MainWindow_DebugCommand_" data-uid="BOOSE.Interpreter.MainWindow.DebugCommand*"></a>
+
+  <h3 id="BOOSE_Interpreter_MainWindow_DebugCommand" data-uid="BOOSE.Interpreter.MainWindow.DebugCommand">
+  DebugCommand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand DebugCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.icommand">ICommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_MainWindow_NewCommand_" data-uid="BOOSE.Interpreter.MainWindow.NewCommand*"></a>
+
+  <h3 id="BOOSE_Interpreter_MainWindow_NewCommand" data-uid="BOOSE.Interpreter.MainWindow.NewCommand">
+  NewCommand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand NewCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.icommand">ICommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_MainWindow_OpenCommand_" data-uid="BOOSE.Interpreter.MainWindow.OpenCommand*"></a>
+
+  <h3 id="BOOSE_Interpreter_MainWindow_OpenCommand" data-uid="BOOSE.Interpreter.MainWindow.OpenCommand">
+  OpenCommand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand OpenCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.icommand">ICommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_MainWindow_SaveAsCommand_" data-uid="BOOSE.Interpreter.MainWindow.SaveAsCommand*"></a>
+
+  <h3 id="BOOSE_Interpreter_MainWindow_SaveAsCommand" data-uid="BOOSE.Interpreter.MainWindow.SaveAsCommand">
+  SaveAsCommand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand SaveAsCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.icommand">ICommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_MainWindow_SaveCommand_" data-uid="BOOSE.Interpreter.MainWindow.SaveCommand*"></a>
+
+  <h3 id="BOOSE_Interpreter_MainWindow_SaveCommand" data-uid="BOOSE.Interpreter.MainWindow.SaveCommand">
+  SaveCommand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand SaveCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.icommand">ICommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
 
 
 
@@ -1735,25 +1623,61 @@ It also registers event handlers for canvas painting and resizing.</p>
 </h2>
 
 
-  <a id="BOOSE_Interpreter_MainWindow_Dispose_" data-uid="BOOSE.Interpreter.MainWindow.Dispose*"></a>
+  <a id="BOOSE_Interpreter_MainWindow_InitializeComponent_" data-uid="BOOSE.Interpreter.MainWindow.InitializeComponent*"></a>
 
-  <h3 id="BOOSE_Interpreter_MainWindow_Dispose_System_Boolean_" data-uid="BOOSE.Interpreter.MainWindow.Dispose(System.Boolean)">
-  Dispose(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/MainWindow.Designer.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_Interpreter_MainWindow_InitializeComponent_System_Boolean_System_Boolean_" data-uid="BOOSE.Interpreter.MainWindow.InitializeComponent(System.Boolean,System.Boolean)">
+  InitializeComponent(bool, bool)
+  
   </h3>
 
-  <div class="markdown level1 summary"><p>Clean up any resources being used.</p>
+  <div class="markdown level1 summary"><p>Wires up the controls and optionally loads XAML markup and attaches dev tools (if Avalonia.Diagnostics package is referenced).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+    <pre><code class="lang-csharp hljs">public void InitializeComponent(bool loadXaml = true, bool attachDevTools = true)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>disposing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>true if managed resources should be disposed; otherwise, false.</p>
+    <dt><code>loadXaml</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Should the XAML be loaded into the component.</p>
+</dd>
+    <dt><code>attachDevTools</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Should the dev tools be attached.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_MainWindow_OnClosed_" data-uid="BOOSE.Interpreter.MainWindow.OnClosed*"></a>
+
+  <h3 id="BOOSE_Interpreter_MainWindow_OnClosed_System_EventArgs_" data-uid="BOOSE.Interpreter.MainWindow.OnClosed(System.EventArgs)">
+  OnClosed(EventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/MainWindow.axaml.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <span class="xref">Avalonia.Controls.TopLevel.Closed</span> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnClosed(EventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></dt>
+    <dd><p>The event args.</p>
 </dd>
   </dl>
 
@@ -1772,7 +1696,6 @@ It also registers event handlers for canvas painting and resizing.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/MainWindow.Designer.cs/#L3" class="edit-link">Edit this page</a>
         </div>
 
 

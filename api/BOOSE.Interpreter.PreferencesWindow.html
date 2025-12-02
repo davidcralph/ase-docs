@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class DebugWindow | BOOSE Interpreter Documentation </title>
+      <title>Class PreferencesWindow | BOOSE Interpreter Documentation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class DebugWindow | BOOSE Interpreter Documentation ">
+      <meta name="title" content="Class PreferencesWindow | BOOSE Interpreter Documentation ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSE.Interpreter.DebugWindow">
+        <article data-uid="BOOSE.Interpreter.PreferencesWindow">
 
 
 
-  <h1 id="BOOSE_Interpreter_DebugWindow" data-uid="BOOSE.Interpreter.DebugWindow" class="text-break">
-Class DebugWindow  
+  <h1 id="BOOSE_Interpreter_PreferencesWindow" data-uid="BOOSE.Interpreter.PreferencesWindow" class="text-break">
+Class PreferencesWindow  
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class DebugWindow
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DebugWindow : Window, INotifyPropertyChanged, IDataContextProvider, IThemeVariantHost, IResourceHost, IResourceNode, ISetLogicalParent, ISetInheritanceParent, ISupportInitialize, IStyleable, INamed, IDataTemplateHost, ISetterValue, IRenderRoot, ICloseable, IStyleHost, ILogicalRoot, ILogical, ITextInputMethodRoot, IInputRoot, IInputElement, IFocusScope, ILayoutRoot</code></pre>
+    <pre><code class="lang-csharp hljs">public class PreferencesWindow : Window, INotifyPropertyChanged, IDataContextProvider, IThemeVariantHost, IResourceHost, IResourceNode, ISetLogicalParent, ISetInheritanceParent, ISupportInitialize, IStyleable, INamed, IDataTemplateHost, ISetterValue, IRenderRoot, ICloseable, IStyleHost, ILogicalRoot, ILogical, ITextInputMethodRoot, IInputRoot, IInputElement, IFocusScope, ILayoutRoot</code></pre>
   </div>
 
 
@@ -124,7 +124,7 @@ Class DebugWindow
       <div><span class="xref">TopLevel</span></div>
       <div><span class="xref">WindowBase</span></div>
       <div><span class="xref">Window</span></div>
-      <div><span class="xref">DebugWindow</span></div>
+      <div><span class="xref">PreferencesWindow</span></div>
     </dd>
   </dl>
 
@@ -261,6 +261,9 @@ Class DebugWindow
     </div>
     <div>
       <span class="xref">Window.ArrangeSetBounds(Size)</span>
+    </div>
+    <div>
+      <span class="xref">Window.OnClosing(WindowClosingEventArgs)</span>
     </div>
     <div>
       <span class="xref">Window.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)</span>
@@ -1434,59 +1437,24 @@ Class DebugWindow
 </h2>
 
 
-  <a id="BOOSE_Interpreter_DebugWindow__ctor_" data-uid="BOOSE.Interpreter.DebugWindow.#ctor*"></a>
+  <a id="BOOSE_Interpreter_PreferencesWindow__ctor_" data-uid="BOOSE.Interpreter.PreferencesWindow.#ctor*"></a>
 
-  <h3 id="BOOSE_Interpreter_DebugWindow__ctor" data-uid="BOOSE.Interpreter.DebugWindow.#ctor">
-  DebugWindow()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/DebugWindow.axaml.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_Interpreter_PreferencesWindow__ctor" data-uid="BOOSE.Interpreter.PreferencesWindow.#ctor">
+  PreferencesWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/PreferencesWindow.axaml.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DebugWindow()</code></pre>
+    <pre><code class="lang-csharp hljs">public PreferencesWindow()</code></pre>
   </div>
 
 
 
 
 
-
-
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="BOOSE_Interpreter_DebugWindow_Instance_" data-uid="BOOSE.Interpreter.DebugWindow.Instance*"></a>
-
-  <h3 id="BOOSE_Interpreter_DebugWindow_Instance" data-uid="BOOSE.Interpreter.DebugWindow.Instance">
-  Instance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/DebugWindow.axaml.cs/#L35"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DebugWindow Instance { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BOOSE.Interpreter.DebugWindow.html">DebugWindow</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -1499,9 +1467,159 @@ Class DebugWindow
 </h2>
 
 
-  <a id="BOOSE_Interpreter_DebugWindow_InitializeComponent_" data-uid="BOOSE.Interpreter.DebugWindow.InitializeComponent*"></a>
+  <a id="BOOSE_Interpreter_PreferencesWindow_AddRecentFile_" data-uid="BOOSE.Interpreter.PreferencesWindow.AddRecentFile*"></a>
 
-  <h3 id="BOOSE_Interpreter_DebugWindow_InitializeComponent_System_Boolean_System_Boolean_" data-uid="BOOSE.Interpreter.DebugWindow.InitializeComponent(System.Boolean,System.Boolean)">
+  <h3 id="BOOSE_Interpreter_PreferencesWindow_AddRecentFile_System_String_" data-uid="BOOSE.Interpreter.PreferencesWindow.AddRecentFile(System.String)">
+  AddRecentFile(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/PreferencesWindow.axaml.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddRecentFile(string filePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_PreferencesWindow_ClearRecentFiles_" data-uid="BOOSE.Interpreter.PreferencesWindow.ClearRecentFiles*"></a>
+
+  <h3 id="BOOSE_Interpreter_PreferencesWindow_ClearRecentFiles" data-uid="BOOSE.Interpreter.PreferencesWindow.ClearRecentFiles">
+  ClearRecentFiles()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/PreferencesWindow.axaml.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearRecentFiles()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_PreferencesWindow_GetRecentFiles_" data-uid="BOOSE.Interpreter.PreferencesWindow.GetRecentFiles*"></a>
+
+  <h3 id="BOOSE_Interpreter_PreferencesWindow_GetRecentFiles" data-uid="BOOSE.Interpreter.PreferencesWindow.GetRecentFiles">
+  GetRecentFiles()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/PreferencesWindow.axaml.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;string&gt; GetRecentFiles()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_PreferencesWindow_GetSavedPreferences_" data-uid="BOOSE.Interpreter.PreferencesWindow.GetSavedPreferences*"></a>
+
+  <h3 id="BOOSE_Interpreter_PreferencesWindow_GetSavedPreferences" data-uid="BOOSE.Interpreter.PreferencesWindow.GetSavedPreferences">
+  GetSavedPreferences()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/PreferencesWindow.axaml.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PreferencesData GetSavedPreferences()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BOOSE.Interpreter.PreferencesData.html">PreferencesData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_PreferencesWindow_GetSavedTheme_" data-uid="BOOSE.Interpreter.PreferencesWindow.GetSavedTheme*"></a>
+
+  <h3 id="BOOSE_Interpreter_PreferencesWindow_GetSavedTheme" data-uid="BOOSE.Interpreter.PreferencesWindow.GetSavedTheme">
+  GetSavedTheme()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/PreferencesWindow.axaml.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetSavedTheme()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Interpreter_PreferencesWindow_InitializeComponent_" data-uid="BOOSE.Interpreter.PreferencesWindow.InitializeComponent*"></a>
+
+  <h3 id="BOOSE_Interpreter_PreferencesWindow_InitializeComponent_System_Boolean_System_Boolean_" data-uid="BOOSE.Interpreter.PreferencesWindow.InitializeComponent(System.Boolean,System.Boolean)">
   InitializeComponent(bool, bool)
   
   </h3>
@@ -1535,26 +1653,32 @@ Class DebugWindow
 
 
 
-  <a id="BOOSE_Interpreter_DebugWindow_OnClosing_" data-uid="BOOSE.Interpreter.DebugWindow.OnClosing*"></a>
+  <h2 class="section" id="events">Events
+</h2>
 
-  <h3 id="BOOSE_Interpreter_DebugWindow_OnClosing_Avalonia_Controls_WindowClosingEventArgs_" data-uid="BOOSE.Interpreter.DebugWindow.OnClosing(Avalonia.Controls.WindowClosingEventArgs)">
-  OnClosing(WindowClosingEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/DebugWindow.axaml.cs/#L44"><i class="bi bi-code-slash"></i></a>
+
+
+  <h3 id="BOOSE_Interpreter_PreferencesWindow_AppThemeChanged" data-uid="BOOSE.Interpreter.PreferencesWindow.AppThemeChanged">
+  AppThemeChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/PreferencesWindow.axaml.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Raises the <span class="xref">Avalonia.Controls.Window.Closing</span> event.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnClosing(WindowClosingEventArgs e)</code></pre>
+    <pre><code class="lang-csharp hljs">public static event EventHandler&lt;AppThemeChangedEventArgs&gt;? AppThemeChanged</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
   <dl class="parameters">
-    <dt><code>e</code> <span class="xref">WindowClosingEventArgs</span></dt>
-    <dd><p>The event args.</p>
-</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="BOOSE.Interpreter.AppThemeChangedEventArgs.html">AppThemeChangedEventArgs</a>&gt;</dt>
+    <dd></dd>
   </dl>
 
 
@@ -1564,11 +1688,31 @@ Class DebugWindow
 
 
 
-  <h4 class="section" id="BOOSE_Interpreter_DebugWindow_OnClosing_Avalonia_Controls_WindowClosingEventArgs__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>A type that derives from <span class="xref">Avalonia.Controls.Window</span>  may override <span class="xref">Avalonia.Controls.Window.OnClosing(Avalonia.Controls.WindowClosingEventArgs)</span>. The
-overridden method must call <span class="xref">Avalonia.Controls.Window.OnClosing(Avalonia.Controls.WindowClosingEventArgs)</span> on the base class if the
-<span class="xref">Avalonia.Controls.Window.Closing</span> event needs to be raised.</p>
-</div>
+  <h3 id="BOOSE_Interpreter_PreferencesWindow_ThemeChanged" data-uid="BOOSE.Interpreter.PreferencesWindow.ThemeChanged">
+  ThemeChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/PreferencesWindow.axaml.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event EventHandler&lt;ThemeChangedEventArgs&gt;? ThemeChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="BOOSE.Interpreter.ThemeChangedEventArgs.html">ThemeChangedEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
 
 
 

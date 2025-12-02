@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class TextBoxTraceListener | BOOSE Interpreter Documentation </title>
+      <title>Class AvaloniaTextBoxTraceListener | BOOSE Interpreter Documentation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class TextBoxTraceListener | BOOSE Interpreter Documentation ">
+      <meta name="title" content="Class AvaloniaTextBoxTraceListener | BOOSE Interpreter Documentation ">
       
-      <meta name="description" content="A custom trace listener that redirects trace output to a TextBox control.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/new/main/apiSpec/new?filename=BOOSE_Interpreter_TextBoxTraceListener.md&amp;value=---%0Auid%3A%20BOOSE.Interpreter.TextBoxTraceListener%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/new/main/apiSpec/new?filename=BOOSE_Interpreter_AvaloniaTextBoxTraceListener.md&amp;value=---%0Auid%3A%20BOOSE.Interpreter.AvaloniaTextBoxTraceListener%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSE.Interpreter.TextBoxTraceListener">
+        <article data-uid="BOOSE.Interpreter.AvaloniaTextBoxTraceListener">
 
 
 
-  <h1 id="BOOSE_Interpreter_TextBoxTraceListener" data-uid="BOOSE.Interpreter.TextBoxTraceListener" class="text-break">
-Class TextBoxTraceListener  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Forms/DebugWindow.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSE_Interpreter_AvaloniaTextBoxTraceListener" data-uid="BOOSE.Interpreter.AvaloniaTextBoxTraceListener" class="text-break">
+Class AvaloniaTextBoxTraceListener  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/DebugWindow.axaml.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class TextBoxTraceListener  <a class="header-action link-secondary" title="View 
   <dl><dt>Assembly</dt><dd>BOOSE.Interpreter.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A custom trace listener that redirects trace output to a TextBox control.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TextBoxTraceListener : TraceListener, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class AvaloniaTextBoxTraceListener : TraceListener, IDisposable</code></pre>
   </div>
 
 
@@ -114,7 +113,7 @@ Class TextBoxTraceListener  <a class="header-action link-secondary" title="View 
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject">MarshalByRefObject</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener">TraceListener</a></div>
-      <div><span class="xref">TextBoxTraceListener</span></div>
+      <div><span class="xref">AvaloniaTextBoxTraceListener</span></div>
     </dd>
   </dl>
 
@@ -248,84 +247,35 @@ Class TextBoxTraceListener  <a class="header-action link-secondary" title="View 
 
 
 
-  <h2 id="BOOSE_Interpreter_TextBoxTraceListener_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This class extends <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener">TraceListener</a> to provide thread-safe
-output to a Windows Forms TextBox. It handles cross-thread calls using Control.Invoke
-to ensure UI updates occur on the correct thread.</p>
-</div>
 
 
   <h2 class="section" id="constructors">Constructors
 </h2>
 
 
-  <a id="BOOSE_Interpreter_TextBoxTraceListener__ctor_" data-uid="BOOSE.Interpreter.TextBoxTraceListener.#ctor*"></a>
+  <a id="BOOSE_Interpreter_AvaloniaTextBoxTraceListener__ctor_" data-uid="BOOSE.Interpreter.AvaloniaTextBoxTraceListener.#ctor*"></a>
 
-  <h3 id="BOOSE_Interpreter_TextBoxTraceListener__ctor_System_Windows_Forms_TextBox_" data-uid="BOOSE.Interpreter.TextBoxTraceListener.#ctor(System.Windows.Forms.TextBox)">
-  TextBoxTraceListener(TextBox)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Forms/DebugWindow.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_Interpreter_AvaloniaTextBoxTraceListener__ctor_Avalonia_Controls_TextBox_" data-uid="BOOSE.Interpreter.AvaloniaTextBoxTraceListener.#ctor(Avalonia.Controls.TextBox)">
+  AvaloniaTextBoxTraceListener(TextBox)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/DebugWindow.axaml.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>A custom trace listener that redirects trace output to a TextBox control.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextBoxTraceListener(TextBox textBox)</code></pre>
+    <pre><code class="lang-csharp hljs">public AvaloniaTextBoxTraceListener(TextBox textBox)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>textBox</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.textbox">TextBox</a></dt>
-    <dd><p>The TextBox control to which trace output will be written.</p>
-</dd>
+    <dt><code>textBox</code> <span class="xref">TextBox</span></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-
-
-
-
-  <h4 class="section" id="BOOSE_Interpreter_TextBoxTraceListener__ctor_System_Windows_Forms_TextBox__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This class extends <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener">TraceListener</a> to provide thread-safe
-output to a Windows Forms TextBox. It handles cross-thread calls using Control.Invoke
-to ensure UI updates occur on the correct thread.</p>
-</div>
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="BOOSE_Interpreter_TextBoxTraceListener_TextBox_" data-uid="BOOSE.Interpreter.TextBoxTraceListener.TextBox*"></a>
-
-  <h3 id="BOOSE_Interpreter_TextBoxTraceListener_TextBox" data-uid="BOOSE.Interpreter.TextBoxTraceListener.TextBox">
-  TextBox
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Forms/DebugWindow.cs/#L104"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets the TextBox control that receives the trace output.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextBox TextBox { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.forms.textbox">TextBox</a></dt>
-    <dd><p>The <a class="xref" href="BOOSE.Interpreter.TextBoxTraceListener.html#BOOSE_Interpreter_TextBoxTraceListener_TextBox">TextBox</a> control used to display trace messages.</p>
-</dd>
-  </dl>
 
 
 
@@ -338,14 +288,14 @@ to ensure UI updates occur on the correct thread.</p>
 </h2>
 
 
-  <a id="BOOSE_Interpreter_TextBoxTraceListener_Write_" data-uid="BOOSE.Interpreter.TextBoxTraceListener.Write*"></a>
+  <a id="BOOSE_Interpreter_AvaloniaTextBoxTraceListener_Write_" data-uid="BOOSE.Interpreter.AvaloniaTextBoxTraceListener.Write*"></a>
 
-  <h3 id="BOOSE_Interpreter_TextBoxTraceListener_Write_System_String_" data-uid="BOOSE.Interpreter.TextBoxTraceListener.Write(System.String)">
+  <h3 id="BOOSE_Interpreter_AvaloniaTextBoxTraceListener_Write_System_String_" data-uid="BOOSE.Interpreter.AvaloniaTextBoxTraceListener.Write(System.String)">
   Write(string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Forms/DebugWindow.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/DebugWindow.axaml.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Writes a message to the TextBox in a thread-safe manner.</p>
+  <div class="markdown level1 summary"><p>When overridden in a derived class, writes the specified message to the listener you create in the derived class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -356,7 +306,7 @@ to ensure UI updates occur on the correct thread.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The message to write to the TextBox.</p>
+    <dd><p>A message to write.</p>
 </dd>
   </dl>
 
@@ -367,22 +317,18 @@ to ensure UI updates occur on the correct thread.</p>
 
 
 
-  <h4 class="section" id="BOOSE_Interpreter_TextBoxTraceListener_Write_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This method checks if a cross-thread call is required and uses Control.Invoke
-if necessary to ensure the TextBox is updated on the UI thread.</p>
-</div>
 
 
 
 
-  <a id="BOOSE_Interpreter_TextBoxTraceListener_WriteLine_" data-uid="BOOSE.Interpreter.TextBoxTraceListener.WriteLine*"></a>
+  <a id="BOOSE_Interpreter_AvaloniaTextBoxTraceListener_WriteLine_" data-uid="BOOSE.Interpreter.AvaloniaTextBoxTraceListener.WriteLine*"></a>
 
-  <h3 id="BOOSE_Interpreter_TextBoxTraceListener_WriteLine_System_String_" data-uid="BOOSE.Interpreter.TextBoxTraceListener.WriteLine(System.String)">
+  <h3 id="BOOSE_Interpreter_AvaloniaTextBoxTraceListener_WriteLine_System_String_" data-uid="BOOSE.Interpreter.AvaloniaTextBoxTraceListener.WriteLine(System.String)">
   WriteLine(string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Forms/DebugWindow.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/DebugWindow.axaml.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Writes a message followed by a line terminator to the TextBox in a thread-safe manner.</p>
+  <div class="markdown level1 summary"><p>When overridden in a derived class, writes a message to the listener you create in the derived class, followed by a line terminator.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -393,7 +339,7 @@ if necessary to ensure the TextBox is updated on the UI thread.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The message to write to the TextBox.</p>
+    <dd><p>A message to write.</p>
 </dd>
   </dl>
 
@@ -412,7 +358,7 @@ if necessary to ensure the TextBox is updated on the UI thread.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Forms/DebugWindow.cs/#L96" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Views/DebugWindow.axaml.cs/#L56" class="edit-link">Edit this page</a>
         </div>
 
 

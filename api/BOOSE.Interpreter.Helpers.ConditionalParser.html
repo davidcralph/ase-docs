@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class BOOSECommandFactory | BOOSE Interpreter Documentation </title>
+      <title>Class ConditionalParser | BOOSE Interpreter Documentation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class BOOSECommandFactory | BOOSE Interpreter Documentation ">
+      <meta name="title" content="Class ConditionalParser | BOOSE Interpreter Documentation ">
       
-      <meta name="description" content="Factory class for creating BOOSE command objects from command strings. Extends the base  to provide custom command implementations.">
+      <meta name="description" content="Helper class for parsing and executing conditional statements (if/while/for) without nesting restrictions.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/new/main/apiSpec/new?filename=BOOSE_Interpreter_BOOSECommandFactory.md&amp;value=---%0Auid%3A%20BOOSE.Interpreter.BOOSECommandFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/new/main/apiSpec/new?filename=BOOSE_Interpreter_Helpers_ConditionalParser.md&amp;value=---%0Auid%3A%20BOOSE.Interpreter.Helpers.ConditionalParser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,26 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSE.Interpreter.BOOSECommandFactory">
+        <article data-uid="BOOSE.Interpreter.Helpers.ConditionalParser">
 
 
 
-  <h1 id="BOOSE_Interpreter_BOOSECommandFactory" data-uid="BOOSE.Interpreter.BOOSECommandFactory" class="text-break">
-Class BOOSECommandFactory  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Core/BOOSECommandFactory.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSE_Interpreter_Helpers_ConditionalParser" data-uid="BOOSE.Interpreter.Helpers.ConditionalParser" class="text-break">
+Class ConditionalParser  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Helpers/ConditionalParser.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="BOOSE.html">BOOSE</a>.<a class="xref" href="BOOSE.Interpreter.html">Interpreter</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="BOOSE.html">BOOSE</a>.<a class="xref" href="BOOSE.Interpreter.html">Interpreter</a>.<a class="xref" href="BOOSE.Interpreter.Helpers.html">Helpers</a></dd></dl>
   <dl><dt>Assembly</dt><dd>BOOSE.Interpreter.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Factory class for creating BOOSE command objects from command strings.
-Extends the base <span class="xref">BOOSE.CommandFactory</span> to provide custom command implementations.</p>
+  <div class="markdown summary"><p>Helper class for parsing and executing conditional statements (if/while/for) without nesting restrictions.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BOOSECommandFactory : CommandFactory, ICommandFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ConditionalParser</code></pre>
   </div>
 
 
@@ -113,17 +112,10 @@ Extends the base <span class="xref">BOOSE.CommandFactory</span> to provide custo
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">CommandFactory</span></div>
-      <div><span class="xref">BOOSECommandFactory</span></div>
+      <div><span class="xref">ConditionalParser</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><span class="xref">ICommandFactory</span></div>
-    </dd>
-  </dl>
 
 
   <dl class="typelist inheritedMembers">
@@ -155,9 +147,9 @@ Extends the base <span class="xref">BOOSE.CommandFactory</span> to provide custo
 
 
 
-  <h2 id="BOOSE_Interpreter_BOOSECommandFactory_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This factory implements the Factory design pattern, allowing for extensible command creation
-while maintaining compatibility with the base BOOSE command library.</p>
+  <h2 id="BOOSE_Interpreter_Helpers_ConditionalParser_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This parser bypasses the base BOOSE library's nesting restrictions by implementing
+custom logic for conditional blocks, allowing unlimited nesting depth.</p>
 </div>
 
 
@@ -165,35 +157,37 @@ while maintaining compatibility with the base BOOSE command library.</p>
 </h2>
 
 
-  <a id="BOOSE_Interpreter_BOOSECommandFactory_MakeCommand_" data-uid="BOOSE.Interpreter.BOOSECommandFactory.MakeCommand*"></a>
+  <a id="BOOSE_Interpreter_Helpers_ConditionalParser_ExecuteProgram_" data-uid="BOOSE.Interpreter.Helpers.ConditionalParser.ExecuteProgram*"></a>
 
-  <h3 id="BOOSE_Interpreter_BOOSECommandFactory_MakeCommand_System_String_" data-uid="BOOSE.Interpreter.BOOSECommandFactory.MakeCommand(System.String)">
-  MakeCommand(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Core/BOOSECommandFactory.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_Interpreter_Helpers_ConditionalParser_ExecuteProgram_System_String___BOOSE_Canvas_BOOSE_StoredProgram_BOOSE_CommandFactory_" data-uid="BOOSE.Interpreter.Helpers.ConditionalParser.ExecuteProgram(System.String[],BOOSE.Canvas,BOOSE.StoredProgram,BOOSE.CommandFactory)">
+  ExecuteProgram(string[], Canvas, StoredProgram, CommandFactory)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Helpers/ConditionalParser.cs/#L199"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Creates a command object from the specified command string.</p>
+  <div class="markdown level1 summary"><p>Executes a program with custom handling for conditional statements.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override ICommand MakeCommand(string commandString)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void ExecuteProgram(string[] lines, Canvas canvas, StoredProgram program, CommandFactory factory)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>commandString</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The command string to parse and convert into a command object.</p>
+    <dt><code>lines</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>The program lines to execute.</p>
+</dd>
+    <dt><code>canvas</code> <span class="xref">Canvas</span></dt>
+    <dd><p>The canvas to draw on.</p>
+</dd>
+    <dt><code>program</code> <span class="xref">StoredProgram</span></dt>
+    <dd><p>The stored program for maintaining state.</p>
+</dd>
+    <dt><code>factory</code> <span class="xref">CommandFactory</span></dt>
+    <dd><p>The command factory for creating commands.</p>
 </dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">ICommand</span></dt>
-    <dd><p>An <span class="xref">BOOSE.ICommand</span> implementation for the specified command.
-Returns custom commands for recognized command names, or delegates to the base factory for standard BOOSE commands.</p>
-</dd>
-  </dl>
 
 
 
@@ -201,10 +195,6 @@ Returns custom commands for recognized command names, or delegates to the base f
 
 
 
-  <h4 class="section" id="BOOSE_Interpreter_BOOSECommandFactory_MakeCommand_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This method checks for custom command implementations (such as &quot;about&quot;) before delegating
-to the base factory for standard BOOSE commands.</p>
-</div>
 
 
 
@@ -213,7 +203,7 @@ to the base factory for standard BOOSE commands.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Core/BOOSECommandFactory.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-davidcralph/blob/main/BOOSE.Interpreter/Helpers/ConditionalParser.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
 

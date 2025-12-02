@@ -1,5 +1,5 @@
 {
-  "source_base_path": "F:/Code/Uni/ase-assignment-davidcralph/BOOSE.Interpreter",
+  "source_base_path": "F:/Code/Uni/ase-assignment-davidcralph/BOOSE.Interpreter/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -23,6 +23,62 @@
       "IsMRef": true,
       "Title": "BOOSE.Interpreter.AboutCommand",
       "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.AboutCommand.yml\" sourcestartlinenumber=\"1\">Command implementation that displays information about the BOOSE application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.AboutWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.AboutWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.AboutWindow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.App",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.AppThemeChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.AppThemeChangedEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.AppThemeChangedEventArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.AvaloniaTextBoxTraceListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.AvaloniaTextBoxTraceListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.AvaloniaTextBoxTraceListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -68,6 +124,370 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.AboutCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.AboutCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.AboutCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.AboutCommand.yml\" sourcestartlinenumber=\"1\">Command implementation that displays information about the BOOSE application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.AssignCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.AssignCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.AssignCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.AssignCommand.yml\" sourcestartlinenumber=\"1\">Command for assigning values to existing variables (used by preprocessor for &quot;width = 2*radius&quot; syntax).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.MethodBodyCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.MethodBodyCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.MethodBodyCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.MethodBodyCommand.yml\" sourcestartlinenumber=\"1\">Internal command for storing method body lines.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.MethodDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.MethodDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.MethodDefinition",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.MethodDefinition.yml\" sourcestartlinenumber=\"1\">Represents a method definition with parameters and body.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedArrayCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedArrayCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedArrayCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedArrayCommand.yml\" sourcestartlinenumber=\"1\">Command for declaring arrays of integers or reals.\nSyntax: array int arrayName size or array real arrayName size</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedBooleanCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedBooleanCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedBooleanCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedBooleanCommand.yml\" sourcestartlinenumber=\"1\">Command for declaring and initializing boolean variables.\nSupports both declaration only (boolean x) and declaration with initialization (boolean x = true).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedCallCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedCallCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedCallCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedCallCommand.yml\" sourcestartlinenumber=\"1\">Command for calling a method.\nSyntax: call methodName arg1 arg2 ...</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedCircleCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedCircleCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedCircleCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedCircleCommand.yml\" sourcestartlinenumber=\"1\">Unrestricted circle command that accepts any radius size.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedEndMethodCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedEndMethodCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedEndMethodCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedEndMethodCommand.yml\" sourcestartlinenumber=\"1\">Command for ending a method definition.\nSyntax: end method</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedIntCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedIntCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedIntCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedIntCommand.yml\" sourcestartlinenumber=\"1\">Command for declaring and initializing integer variables.\nSupports both declaration only (int x) and declaration with initialization (int x = 5).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedMethodCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedMethodCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedMethodCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedMoveToCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedMoveToCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedMoveToCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedMoveToCommand.yml\" sourcestartlinenumber=\"1\">Unrestricted moveto command that accepts any coordinates.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedPeekCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedPeekCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedPeekCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedPeekCommand.yml\" sourcestartlinenumber=\"1\">Command for reading a value from a specific index in an array into a variable.\nSyntax: peek varName = arrayName index</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedPenCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedPenCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedPenCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedPenCommand.yml\" sourcestartlinenumber=\"1\">Unrestricted pen command that accepts variable references for color values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedPokeCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedPokeCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedPokeCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedPokeCommand.yml\" sourcestartlinenumber=\"1\">Command for setting a value at a specific index in an array.\nSyntax: poke arrayName index = value</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedRealCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedRealCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedRealCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedRealCommand.yml\" sourcestartlinenumber=\"1\">Command for declaring and initializing real (double) variables.\nSupports both declaration only (real x) and declaration with initialization (real x = 5.5).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedRectCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedRectCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedRectCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedRectCommand.yml\" sourcestartlinenumber=\"1\">Unrestricted rectangle command that accepts any width and height.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedTriCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedTriCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedTriCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedTriCommand.yml\" sourcestartlinenumber=\"1\">Unrestricted triangle command that accepts any width and height.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedWriteCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.UnrestrictedWriteCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.UnrestrictedWriteCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.UnrestrictedWriteCommand.yml\" sourcestartlinenumber=\"1\">Command implementation that writes text or evaluates expressions and displays the result.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.VariableAssignmentCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.VariableAssignmentCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands.VariableAssignmentCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Commands.VariableAssignmentCommand.yml\" sourcestartlinenumber=\"1\">Command for assigning values to existing variables.\nHandles expressions like &quot;width = cheese*2&quot; or &quot;x = 10&quot;.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Commands.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Commands",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Core.BOOSECanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Core.BOOSECanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Core.BOOSECanvas",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Core.BOOSECanvas.yml\" sourcestartlinenumber=\"1\">Provides a Windows Forms-based implementation of the BOOSE Canvas for graphical drawing operations.\nImplements the abstract Canvas class with GDI+ rendering capabilities.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Core.BOOSECommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Core.BOOSECommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Core.BOOSECommandFactory",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Core.BOOSECommandFactory.yml\" sourcestartlinenumber=\"1\">Factory class for creating BOOSE command objects from command strings.\nExtends the base <xref href=\"BOOSE.CommandFactory\" data-throw-if-not-resolved=\"false\"></xref> to provide custom command implementations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Core.BOOSEProgramRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Core.BOOSEProgramRunner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Core.BOOSEProgramRunner",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Core.BOOSEProgramRunner.yml\" sourcestartlinenumber=\"1\">Executes BOOSE programs on a specified canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Core.IProgramRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Core.IProgramRunner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Core.IProgramRunner",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Core.IProgramRunner.yml\" sourcestartlinenumber=\"1\">Defines the contract for executing BOOSE programs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BOOSE.Interpreter.DebugWindow.yml",
       "output": {
         ".html": {
@@ -78,7 +498,63 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE.Interpreter.DebugWindow",
-      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.DebugWindow.yml\" sourcestartlinenumber=\"1\">A debug output window that displays trace messages from the BOOSE interpreter.</p>\n"
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.DelegateCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.DelegateCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.DelegateCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Helpers.ConditionalParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Helpers.ConditionalParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Helpers.ConditionalParser",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.Helpers.ConditionalParser.yml\" sourcestartlinenumber=\"1\">Helper class for parsing and executing conditional statements (if/while/for) without nesting restrictions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.Helpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.IProgramRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.IProgramRunner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.IProgramRunner",
+      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.IProgramRunner.yml\" sourcestartlinenumber=\"1\">Defines the contract for executing BOOSE programs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -92,7 +568,35 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE.Interpreter.MainWindow",
-      "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.MainWindow.yml\" sourcestartlinenumber=\"1\">The main application window for the BOOSE Interpreter.</p>\n"
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.PreferencesData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.PreferencesData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.PreferencesData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.PreferencesWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.PreferencesWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.PreferencesWindow",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -107,6 +611,20 @@
       "IsMRef": true,
       "Title": "BOOSE.Interpreter.TextBoxTraceListener",
       "Summary": "<p sourcefile=\"api/BOOSE.Interpreter.TextBoxTraceListener.yml\" sourcestartlinenumber=\"1\">A custom trace listener that redirects trace output to a TextBox control.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.Interpreter.ThemeChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.Interpreter.ThemeChangedEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Interpreter.ThemeChangedEventArgs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
